@@ -7,5 +7,5 @@ title = "Web Application Development"
 
 [build]
 build-dir = "output"
-create-missing = false
+create-missing = true
 use-default-preprocessors = false
