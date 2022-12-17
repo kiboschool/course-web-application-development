@@ -65,3 +65,10 @@ Gradescope and Woolf for the practice exercises.
 
 </details>
 
+## Practice
+
+### Run the apps
+
+### Flask Tutorial
+
+

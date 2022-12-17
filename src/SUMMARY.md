@@ -18,7 +18,7 @@
   - [Web app architecture](lessons/web-apps/web-app-architecture.md)
   - [Sample apps](lessons/web-apps/sample-apps.md)
   - [Practice](lessons/web-apps/practice.md)
-  - [Project](lessons/web-apps/project.md)
+  - [Assignment: Web App Tour](lessons/web-apps/project.md)
 
 ### Week 2 - Routing and Templating
 
@@ -29,6 +29,7 @@
     - [Third-party code](lessons/routing/third-party-code.md)
     - [Templates](lessons/templates/basics.md)
     - [Practice](lessons/templates/practice.md)
+    - [Project: Number Guessing Game](lessons/templates/project.md)
 
 ### Week 3 - Databases
 
@@ -38,6 +39,8 @@
     - [Querying](lessons/databases/querying.md)
     - [Selecting and filtering](lessons/databases/selecting-and-filtering.md)
     - [Database Management](lessons/databases/management.md)
+    - [Practice](lessons/databases/practice.md)
+    - [Assignment: Filter pages](lessons/databases/project..md)
 
 ### Week 4 - Forms
 
@@ -47,6 +50,8 @@
   - [REST and CRUD](lessons/forms/rest-and-crud.md)
   - [Parsing and Validation](lessons/forms/parsing-and-validation.md)
   - [SQL Injection](lessons/forms/sql-injection.md)
+  - [Practice](lessons/forms/practice.md)
+  - [Assignment: SQL Injection](lessons/forms/assignment.md)
 
 ### Week 5 - Data Modeling
 
@@ -56,6 +61,8 @@
   - [Belongs-to and Has-many](lessons/data-modeling/belongs-to-has-many.md)
   - [Has-many-through](lessons/data-modeling/has-many-through.md)
   - [N+1 queries](lessons/data-modeling/n-plus-one.md)
+  - [Practice](lessons/data-modeling/practice.md)
+  - [Assignment: Product Info](lessons/data-modeling/project.md)
 
 ### Week 6 - APIs
 
@@ -66,6 +73,8 @@
   - [Creating APIs](lessons/apis/creating-apis.md)
   - [Webhooks](lessons/apis/webhooks.md)
   - [API Considerations](lessons/apis/considerations.md)
+  - [Practice](lessons/apis/practice.md)
+  - [Project: AI Chatbot](lessons/apis/project.md)
 
 ### Week 7 - Auth
 
@@ -75,6 +84,8 @@
     - [Emails](lessons/auth/email.md)
     - [Authorization](lessons/auth/authorization.md)
     - [OAuth](lessons/auth/oauth.md)
+    - [Practice](lessons/auth/practice.md)
+    - [Assignment: Vulnerabilities](lessons/auth/assignment.md)
 
 ### Week 8 - Deployment
 
@@ -84,6 +95,7 @@
   - [Databases](lessons/deployment/databases.md)
   - [Logs and monitoring](lessons/deployment/logs-monitoring.md)
   - [Performance](lessons/deployment/performance.md)
+  - [Assignment: Deploy](lessons/deployment/project.md)
 
 ### Week 9 - Advanced Patterns
 
@@ -92,6 +104,8 @@
   - [ORMs](lessons/patterns/orms.md)
   - [Database Indexes](lessons/patterns/indexes.md)
   - [Testing](lessons/patterns/testing.md)
+  - [Practice](lessons/patterns/practice.md)
+  - [Assignment: Bugfix](lessons/patterns/assignment.md)
 
 ### Week 10 - Real Web Apps
 
@@ -104,3 +118,4 @@
   - [MediaWiki](lessons/real-web-apps/mediawiki.md)
   - [Ghost and Wordpress](lessons/real-web-apps/ghost-wordpress.md)
   - [Flask and Express](lessons/real-web-apps/flask-express.md)
+  - [Case Study](lessons/real-web-apps/case-study.md)
