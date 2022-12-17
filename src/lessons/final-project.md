@@ -1,6 +1,7 @@
 # Final Project: Multi-model CRUD App
 
-In this project, you'll work with a team design and build a complete web application.
+For your final project, you'll work with a team design and build a complete web 
+application.
 
 ## Requirements
 
@@ -21,3 +22,9 @@ The following are optional, but not required:
 - you may use  a library to manage authentication and authortization
 - you may deploy your application to the web
 
+## Presentations
+
+During the final weeks of class, your team will present your project to the
+rest of the class. You'll have 5 minutes to share what the application does, 
+explain the code for one feature, and share challenges you faced in creating the
+application.
