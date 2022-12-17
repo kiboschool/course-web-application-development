@@ -1,3 +1,40 @@
 # Reality
 
-https://danluu.com/navigate-url/ -> Web App Development / https://github.com/alex/what-happens-when 
+## Real software is alive
+
+Systems are optimized for maintenance, not just for working right the first
+time.
+
+- that's why Migrations are a first-class concept
+- that's why we have infrastructure for _deployments_
+- it's why we have testing and staging environments
+- it's (one reason) we have documentation for our code
+- it's why logging and monitoring are prioritized in web frameworks
+
+And hundreds of other consequences! Software engineers are maintaining these
+systems, not just building them from scratch.
+
+## Real Devices
+
+- Browser compatibility tables
+- Who is accessing your site, and how?
+  - Mobile app webviews as a primary source of traffic
+
+## Real internet
+
+What happens "under the hood"?
+
+https://danluu.com/navigate-url/ and the answers, https://github.com/alex/what-happens-when 
+
+
+## Localization and Internationalization
+
+## Offline-first
+
+## Real Data Modeling
+
+https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/
+
+(and https://github.com/kdeldycke/awesome-falsehood )
+
+

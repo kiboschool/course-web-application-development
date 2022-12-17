@@ -1,7 +1,6 @@
 # Web Application Development
 
 **CSF005**
-
 _6 ECTS Credits_
 
 ## Welcome to Web Application Development
@@ -23,6 +22,10 @@ By the end of the course, you will be able to:
 ## How the course works
 
 ## Assessments
+
+- Weekly assignments: 50%
+- Midterm Project: 25%
+- Final Project: 25%
 
 ## Tools
 

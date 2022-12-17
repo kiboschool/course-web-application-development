@@ -4,7 +4,7 @@
 
 [Course Overview](web-application-development.md)
 [Getting Help](lessons/asking-for-help.md)
-[Weekly Projects](lessons/weekly-projects.md)
+[Assignments](lessons/assignments.md)
 [Midterm Project](lessons/midterm-project.md)
 [Final Project](lessons/final-project.md)
 [Live Classes](lessons/live-classes.md)
@@ -65,6 +65,7 @@
   - [API Authentication](lessons/apis/authentication.md)
   - [Creating APIs](lessons/apis/creating-apis.md)
   - [Webhooks](lessons/apis/webhooks.md)
+  - [API Considerations](lessons/apis/considerations.md)
 
 ### Week 7 - Auth
 
@@ -103,6 +104,3 @@
   - [MediaWiki](lessons/real-web-apps/mediawiki.md)
   - [Ghost and Wordpress](lessons/real-web-apps/ghost-wordpress.md)
   - [Flask and Express](lessons/real-web-apps/flask-express.md)
-
-Crawler / search as a web project
-
