@@ -35,12 +35,12 @@
 
 - [Databases](lessons/databases.md) 
     - [Persistence](lessons/databases/persistence.md)
-    - [Relational DBs](lessons/databases/persistence.md)
+    - [Relational DBs](lessons/databases/relational-dbs.md)
     - [Querying](lessons/databases/querying.md)
     - [Selecting and filtering](lessons/databases/selecting-and-filtering.md)
     - [Database Management](lessons/databases/management.md)
     - [Practice](lessons/databases/practice.md)
-    - [Assignment: Filter pages](lessons/databases/project..md)
+    - [Assignment: Filter pages](lessons/databases/project.md)
 
 ### Week 4 - Forms
 
@@ -112,10 +112,10 @@
 - [Real Web Apps](lessons/real-web-apps.md)
   - [Reality](lessons/real-web-apps/reality.md)
   - [Web architecture](lessons/real-web-apps/architecture.md)
-  - [TLDraw](lessons/real-web-apps/tldraw.md)
-  - [OTW and AO3](lessons/real-web-apps/otw.md)
-  - [Matrix Element](lessons/real-web-apps/element.md)
-  - [MediaWiki](lessons/real-web-apps/mediawiki.md)
-  - [Ghost and Wordpress](lessons/real-web-apps/ghost-wordpress.md)
-  - [Flask and Express](lessons/real-web-apps/flask-express.md)
-  - [Case Study](lessons/real-web-apps/case-study.md)
+  - [Assignment: Case Study](lessons/real-web-apps/case-study.md)
+    - [TLDraw](lessons/real-web-apps/tldraw.md)
+    - [OTW and AO3](lessons/real-web-apps/otw.md)
+    - [Matrix Element](lessons/real-web-apps/element.md)
+    - [MediaWiki](lessons/real-web-apps/mediawiki.md)
+    - [Ghost and Wordpress](lessons/real-web-apps/ghost-wordpress.md)
+    - [Flask and Express](lessons/real-web-apps/flask-express.md)
