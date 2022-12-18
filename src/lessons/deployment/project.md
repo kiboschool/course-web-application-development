@@ -1,5 +1,6 @@
-# Assignment: Deploy
+# Deploy your project
 
-For this assignment, you'll follow a tutorial to deploy a web application. Then
-you'll answer a few questions about how you'd manage the application, if you
-were maintaining the server.
+Follow the tutorial to deploy your final project web application. You can keep
+making changes after you deploy. The goal is to get a working MVP live as soon as
+possible, so that you can continue adding features and fixing bugs, with the
+confidence that you have deployed your application.

@@ -59,7 +59,10 @@ You are encouraged to seek out additional practice problems outside of the pract
 
 ## Assessments
 
-- Weekly assignments: 50%
+Your overall course grade is made up of the following:
+
+- Practice Exercises: 10%
+- Weekly assignments: 40%
 - Midterm Project: 25%
 - Final Project: 25%
 

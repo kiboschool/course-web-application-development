@@ -40,7 +40,6 @@
   - [Selecting and filtering](lessons/databases/selecting-and-filtering.md)
   - [Database Management](lessons/databases/management.md)
   - [Practice](lessons/databases/practice.md)
-  - [Assignment: Filter pages](lessons/databases/project.md)
 
 ### Week 4 - Forms
 
@@ -62,7 +61,7 @@
   - [Has-many-through](lessons/data-modeling/has-many-through.md)
   - [N+1 queries](lessons/data-modeling/n-plus-one.md)
   - [Practice](lessons/data-modeling/practice.md)
-  - [Assignment: Product Info](lessons/data-modeling/project.md)
+  - [Project: Product Info](lessons/data-modeling/project.md)
 
 ### Week 6 - APIs
 
@@ -85,7 +84,6 @@
   - [Authorization](lessons/auth/authorization.md)
   - [OAuth](lessons/auth/oauth.md)
   - [Practice](lessons/auth/practice.md)
-  - [Assignment: Vulnerabilities](lessons/auth/assignment.md)
 
 ### Week 8 - Deployment
 
@@ -95,7 +93,7 @@
   - [Databases](lessons/deployment/databases.md)
   - [Logs and monitoring](lessons/deployment/logs-monitoring.md)
   - [Performance](lessons/deployment/performance.md)
-  - [Assignment: Deploy](lessons/deployment/project.md)
+  - [Deploy Your Project](lessons/deployment/project.md)
 
 ### Week 9 - Advanced Patterns
 
@@ -105,14 +103,13 @@
   - [Database Indexes](lessons/patterns/indexes.md)
   - [Testing](lessons/patterns/testing.md)
   - [Practice](lessons/patterns/practice.md)
-  - [Assignment: Bugfix](lessons/patterns/assignment.md)
 
 ### Week 10 - Real Web Apps
 
 - [Real Web Apps](lessons/real-web-apps.md)
   - [Reality](lessons/real-web-apps/reality.md)
   - [Web architecture](lessons/real-web-apps/architecture.md)
-  - [Assignment: Case Study](lessons/real-web-apps/case-study.md)
+  - [Project: Case Study](lessons/real-web-apps/case-study.md)
     - [TLDraw](lessons/real-web-apps/tldraw.md)
     - [OTW and AO3](lessons/real-web-apps/otw.md)
     - [Matrix Element](lessons/real-web-apps/element.md)

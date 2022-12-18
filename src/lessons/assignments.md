@@ -24,23 +24,21 @@ Your overall course grade is made up of the following:
 - Midterm Project: 25%
 - Final Project: 25%
 
-Each of the weekly assignments counts for 4% of your overall grade.
-
 ## Assignment Calendar
 
 |  | Assignment | Due Date |
 |---|---|---|
 | Week 1 | Web App Tour | Jan 13 |
 | Week 2 | Number Guessing game | Jan 20 |
-| Midterm Project | Flask quiz game |  |
-| Week 3 | Filter pages | Jan 27 |
+| Week 3 | **None** | -- |
+| Midterm Project | Flask quiz game | Feb 5 |
 | Week 4 | SQL injection | Feb 3 |
 | Week 5 | Product info pages | Feb 10 |
 | Week 6 | AI Chatbot | Feb 17 |
-| Week 7 | Vulnerability hunt | Feb 24 |
-| Week 8 | Deployment | Mar 3 |
-| Final Project | Multi-model CRUD app |  |
-| Week 9 | Bugfix: Responsive Design | Mar 10 |
+| Week 7 | **None** | -- |
+| Final Project | Multi-model CRUD app | Mar 8 |
+| Week 8 | Deployment | -- |
+| Week 9 | **None** | -- |
 | Week 10 | Case Study | Mar 17 |
 
 ## Late Assignments

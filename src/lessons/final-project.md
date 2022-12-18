@@ -11,6 +11,9 @@ application.
 - Your application must have features to Create, Read, Update, and Delete at least some of those models from a web interface
 - Your application must be designed such that it works properly on different devices (desktop and mobile)
 
+You must deploy a version of your application. In week 8, we'll cover deployment
+in depth, and walk you through the steps to deploy your application.
+
 ## Optional components
 
 The following are optional, but not required:
