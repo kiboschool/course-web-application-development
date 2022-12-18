@@ -23,24 +23,24 @@
 ### Week 2 - Routing and Templating
 
 - [Routing and Templating](lessons/routing-templating.md)
-    - [Routing Basics](lessons/routing/basics.md)
-    - [Route params](lessons/routing/params.md)
-    - [Static file serving](lessons/routing/static.md)
-    - [Third-party code](lessons/routing/third-party-code.md)
-    - [Templates](lessons/templates/basics.md)
-    - [Practice](lessons/templates/practice.md)
-    - [Project: Number Guessing Game](lessons/templates/project.md)
+  - [Routing Basics](lessons/routing/basics.md)
+  - [Route params](lessons/routing/params.md)
+  - [Static file serving](lessons/routing/static.md)
+  - [Third-party code](lessons/routing/third-party-code.md)
+  - [Templates](lessons/templates/basics.md)
+  - [Practice](lessons/templates/practice.md)
+  - [Project: Number Guessing Game](lessons/templates/project.md)
 
 ### Week 3 - Databases
 
 - [Databases](lessons/databases.md) 
-    - [Persistence](lessons/databases/persistence.md)
-    - [Relational DBs](lessons/databases/relational-dbs.md)
-    - [Querying](lessons/databases/querying.md)
-    - [Selecting and filtering](lessons/databases/selecting-and-filtering.md)
-    - [Database Management](lessons/databases/management.md)
-    - [Practice](lessons/databases/practice.md)
-    - [Assignment: Filter pages](lessons/databases/project.md)
+  - [Persistence](lessons/databases/persistence.md)
+  - [Relational DBs](lessons/databases/relational-dbs.md)
+  - [Querying](lessons/databases/querying.md)
+  - [Selecting and filtering](lessons/databases/selecting-and-filtering.md)
+  - [Database Management](lessons/databases/management.md)
+  - [Practice](lessons/databases/practice.md)
+  - [Assignment: Filter pages](lessons/databases/project.md)
 
 ### Week 4 - Forms
 
@@ -79,13 +79,13 @@
 ### Week 7 - Auth
 
 - [Auth](lessons/auth.md)
-    - [Authentication](lessons/auth/authentication.md)
-    - [Passwords](lessons/auth/passwords.md)
-    - [Emails](lessons/auth/email.md)
-    - [Authorization](lessons/auth/authorization.md)
-    - [OAuth](lessons/auth/oauth.md)
-    - [Practice](lessons/auth/practice.md)
-    - [Assignment: Vulnerabilities](lessons/auth/assignment.md)
+  - [Authentication](lessons/auth/authentication.md)
+  - [Passwords](lessons/auth/passwords.md)
+  - [Emails](lessons/auth/email.md)
+  - [Authorization](lessons/auth/authorization.md)
+  - [OAuth](lessons/auth/oauth.md)
+  - [Practice](lessons/auth/practice.md)
+  - [Assignment: Vulnerabilities](lessons/auth/assignment.md)
 
 ### Week 8 - Deployment
 
