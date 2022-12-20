@@ -1,15 +1,10 @@
 # Reality
 
-## Real software is alive
-
-Systems are optimized for maintenance, not just for working right the first
-time.
-
-- that's why Migrations are a first-class concept
-- that's why we have infrastructure for _deployments_
-- it's why we have testing and staging environments
-- it's (one reason) we have documentation for our code
-- it's why logging and monitoring are prioritized in web frameworks
+- Infrastructure for _deployments_ and changes
+- Migrations are a first-class concept
+- Testing and staging environments
+- Documentation for our code
+- Logging and monitoring are prioritized in web frameworks
 
 And hundreds of other consequences! Software engineers are maintaining these
 systems, not just building them from scratch.
