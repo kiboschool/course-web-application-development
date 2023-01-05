@@ -3,6 +3,9 @@
 For your final project, you'll work with a team design and build a complete web 
 application.
 
+Details would be communicated in due course.
+
+<!--
 ## Requirements
 
 - Your application must use Flask or Express
@@ -31,3 +34,4 @@ During the final weeks of class, your team will present your project to the
 rest of the class. You'll have 5 minutes to share what the application does, 
 explain the code for one feature, and share challenges you faced in creating the
 application.
+-->

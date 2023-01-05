@@ -20,6 +20,7 @@
   - [Practice](lessons/web-apps/practice.md)
   - [Assignment: Web App Tour](lessons/web-apps/project.md)
 
+<!--
 ### Week 2 - Routing and Templating
 
 - [Routing and Templating](lessons/routing-templating.md)
@@ -116,3 +117,4 @@
     - [MediaWiki](lessons/real-web-apps/mediawiki.md)
     - [Ghost and Wordpress](lessons/real-web-apps/ghost-wordpress.md)
     - [Flask and Express](lessons/real-web-apps/flask-express.md)
+-->

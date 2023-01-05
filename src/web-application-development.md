@@ -20,7 +20,17 @@ You will build the front-end of a web application using HTML, CSS and JavaScript
 
 ## Meeting Times
 
+Note that all times are listed in GMT, please convert to your local timezone.
+
+- Class 1: Mondays from 6:00pm - 7:30pm GMT
+- Class 2: Thursdays from 6:00pm - 7:30pm GMT
+- Office hours will be on Tuesdays at 12:00pm GMT
+
 ## Instructor
+
+Olaperi Okuboyejo
+
+<olaperi.okuboyejo@kibo.school>
 
 ## Learning Outcomes
 
