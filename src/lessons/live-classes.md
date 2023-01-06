@@ -10,4 +10,4 @@ in github classroom, you can reach out in Discord to be added to the team.
 
 | Week | Topic          | Slides          | Code            | Section 1 Video       | Section 2 Video       | Feedback Link | 
 | ---- | -------------- | --------------- | ----------------| --------------------- |-----------------------|---------------|
-| 1    | [Web Apps](./web-apps.md)      | [Slides](https://docs.google.com/presentation/d/11IIGpcx52F6zWcnCBts1UsjUxOn6O8CnGYy2FApaT2U/edit?usp=sharing)        |  N/A    | [YouTube]             |             [YouTube]          |         [Feedback](https://forms.gle/izZnqi9ZVSy2D43w5)      | 
+| 1    | [Web Apps](./web-apps.md)      | [Slides]()        |  N/A    | [YouTube]             |             [YouTube]          |         [Feedback](https://forms.gle/izZnqi9ZVSy2D43w5)      | 

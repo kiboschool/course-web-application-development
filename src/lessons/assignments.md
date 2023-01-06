@@ -48,7 +48,7 @@ your work in on time, both for your own learning, and as a matter of
 professionalism.
 
 If you know that you will not be able to submit an assignment on time, please
-contact the instructor to provide the reason and ask for an extension.
+contact the instructor to provide the reason and ask for an extension. Note that you need to notify the instructor before the assignment is due.
 
 In general, the penalty for late submission of an assignment is 10% of the
 assignment grade, per week that the assignment is late, with a max penalty of
@@ -60,7 +60,16 @@ Each week will include practice exercises to help you better understand web
 applications. You are _strongly_ encouraged to complete the practice exercises
 each week. They will be graded based on completion, not correctness. Submitting
 any of the practice exercises for a given week will count towards the practice
-exercise grade for the course. 
+exercise grade for the course. You are required to submit ten exercises throughout the term.
+
+### How to submit your practice exercise
+
+- Fill the Web application development practice log weekly
+- Link [here](https://forms.gle/Xh159oPgyPoRSJqFA).
+- You’ll need to share a link to your completed exercise (in the form)
+- This will be used for awarding marks
+- Each entry in the form will count for one of your ten required practice entries.
+
 
 ## Why practice?
 

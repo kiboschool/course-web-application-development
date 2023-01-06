@@ -7,7 +7,7 @@ Below are the different ways to get help in this class.
 
 ## Discord channel 
 
-The first place to go is always the **#help-wad** channel. Share your question there so that your instructor and your peers can help you as soon they can.
+The first place to go is always the **#help-wd** channel. Share your question there so that your instructor and your peers can help you as soon they can.
 
 <!-- add image -->
 
@@ -22,7 +22,7 @@ Office hours with Olaperi will be on **Tuesdays 12:00pm GMT.**
 
 It will be an online zoom meeting that you can join.
 
-The join link will be posted on the Discord channel, on the thread **#help-wad -> announcements** on the same day.
+The join link will be posted on the Discord channel, on the thread **#help-wd -> announcements** on the same day.
 
 <!--add image-->
 
