@@ -1,9 +1,5 @@
 # Assignment: Web App Tour
 
-## Submission
-
-To get credit for the assignment, [complete the questions on Gradescope](https://www.gradescope.com/courses/480017/assignments/2536659/).
-
 ## Web App Tour
 
 In this project, you won't be writing code. Instead, you'll be exploring
@@ -18,10 +14,19 @@ application by exploring the source code.
 * [Live demo of the application](https://ls.up.railway.app/)
 * [Source code of the different implementations](https://github.com/kiboschool/link-shortener)
 
+## Submission
+
+To get credit for the assignment:
+
+> [**Complete the questions on Gradescope**](https://www.gradescope.com/courses/480017/assignments/2536659/)
+
+### Note: Many Languages
+
 > _Polyglot_ means 'many tongues'. 
 >
-> This project, and this whole course, will use
-> multiple languages - primarily Python and JavaScript, but also others.
+> This project, and this whole course, will use multiple languages - primarily 
+> Python and JavaScript, but also others.
+>
 > Different languages and frameworks may have different syntax, but they can
 > be used to create the same features.
 > 
