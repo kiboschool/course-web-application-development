@@ -28,6 +28,6 @@ Overall, the process of sending and receiving HTTP requests and responses is wha
 
 ## Check your understanding
 
-> 1. What is a web application, and how is it different from a native application?
+1. What is a web application, and how is it different from a native application?
 
-> 2. What is HTTP, and why is it important for web applications?
+2. What is HTTP, and why is it important for web applications?
