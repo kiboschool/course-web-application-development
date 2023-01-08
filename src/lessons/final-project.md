@@ -3,7 +3,7 @@
 For your final project, you'll work with a team design and build a complete web 
 application.
 
-Details would be communicated in due course.
+More details will be shared later on.
 
 <!--
 ## Requirements

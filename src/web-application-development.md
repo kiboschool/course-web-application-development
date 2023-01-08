@@ -10,11 +10,12 @@ Prerequisites: CSF004 Web Foundations
 
 <details><summary>Watch this welcome video from your instructor.</summary>
 
-<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://youtu.be/5RE1Y-1GfPM" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.youtube.com/embed/5RE1Y-1GfPM" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 </details>
 
 You can also find the video [here](https://youtu.be/5RE1Y-1GfPM).
+
 ## What you'll learn
 
 This course builds on Web Foundations, and provides a comprehensive introduction to client and server-side development for the web. 

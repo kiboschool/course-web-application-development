@@ -12,5 +12,6 @@ explore after the course.
 
 - Responsive Design
 - ORMs
+- The MVC architecture
 - Database indexes
 - Testing

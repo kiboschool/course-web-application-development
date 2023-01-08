@@ -2,6 +2,8 @@
 
 In this project, you'll build a custom quiz app using Flask.
 
+<!--
+
 ## Quiz Apps
 
 Quiz apps are really popular.
@@ -35,3 +37,5 @@ any of these apps.
 - You may add styles to the quiz app pages
 - You may use a CSS framework
 - You may render questions from a fixed list in your code, or from a database
+
+-->
