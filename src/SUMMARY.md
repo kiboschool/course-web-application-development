@@ -14,9 +14,10 @@
 ### Week 1 - Web Applications
 
 - [Web Applications](lessons/web-apps.md)
-  - [Web applications and HTTP](lessons/web-apps/what-are-web-apps.md)
+  - [What are web apps?](lessons/web-apps/what-are-web-apps.md)
+  - [URLs](lessons/web-apps/urls.md)
+  - [HTTP](lessons/web-apps/http.md)
   - [Web app architecture](lessons/web-apps/web-app-architecture.md)
-  - [Sample apps](lessons/web-apps/sample-apps.md)
   - [Practice](lessons/web-apps/practice.md)
   - [Assignment: Web App Tour](lessons/web-apps/project.md)
 
@@ -95,10 +96,11 @@
   - [Performance](lessons/deployment/performance.md)
   - [Deploy Your Project](lessons/deployment/project.md)
 
-### Week 9 - Advanced Patterns
+### Week 9 - Patterns
 
 - [Patterns](lessons/patterns.md)
   - [Responsive Design](lessons/patterns/responsive.md)
+  - [MVC](lessons/patterns/mvc.md)
   - [ORMs](lessons/patterns/orms.md)
   - [Database Indexes](lessons/patterns/indexes.md)
   - [Testing](lessons/patterns/testing.md)

@@ -1,30 +1,77 @@
 # Web Application Architecture
 
-Web applications typically follow a client-server architecture. 
+Web applications typically follow a *client-server architecture*. 
 
-The client is the web browser that the user interacts with, and the server is the remote computer that hosts the web application. The server serves content and functionality to the client.
+The client is the web browser that the user interacts with, and the server is 
+the remote computer that hosts the web application. The server serves content 
+and functionality to the client.
 
-On the web, the client and server communicate with each other using the HTTP protocol, which defines how requests and responses are formatted and handled.
+On the web, the client and server communicate with each other using the HTTP 
+protocol, which defines how requests and responses are formatted and handled.
 
 But! Things aren't quite so simple.
 
-Within the server, applications often have a layered architecture, with a presentation layer that handles the user interface and user experience, a business layer that implements the application's core functionality, and a data layer that manages access to the application's data and databases.
+The term _architecture_ refers to both the _components_ of an application, like 
+a server and database, as well as how the _code_ is organized for a server.
 
-## Server Architecture
+The most common components of a web application architecture are the client, 
+server, and database.
 
+Within the server, application code often has a layered architecture, with a data 
+layer that manages access to the application's data and databases, a 
+presentation layer that handles the user interface and user experience, and a 
+business layer that implements the application's core functionality. A common 
+pattern for this separation in the server code is called **MVC**: Model, View, 
+Controller.
 
-## MVC
+## What is web app architecture?
 
-The Model-View-Controller (MVC) architecture is a common design pattern for web applications. It is based on the idea of separating an application into three distinct parts, each with its own responsibilities and role in the overall application. These three parts are the model, the view, and the controller.
+> This video explains the basics of web app architecture, and some of the
+> different kinds of architecture that different applications might use.
 
-The **model** manages the application's data and business logic. It is responsible for managing the application's data, performing calculations and processing, and communicating with any external data sources or services.
+<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.youtube.com/embed/sDlCSIDwpDs?start=152" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-The **view** handles the user interface and presentation of the application. It is responsible for rendering the application's content and layout, and providing users with a way to interact with the application.
+### Conceptual components vs. Physical components
 
-The **controller** acts as the intermediary between the model and the view. It receives user input, passes it to the model for processing, and then sends the resulting data to the view for rendering.
+Drawings of web app architecture often show boxes for many different computers. 
+The client, the server (or several servers), and the database each appear as a
+separate machine.
 
-Overall, the MVC architecture is designed to promote _separation of concerns_ in web applications. By dividing an application into these three distinct parts, developers can work on different parts of the application in parallel, and make changes to one part without affecting the other parts. This can make the development and maintenance of web applications more efficient and flexible.
+But, when we're building web apps, we usually just have one computer where we
+write code. How do we deal with this?
 
-## Platforms and Hosting
+Instead of having multiple _physical_ computers, we have multiple _conceptual_ 
+computers.
 
-Web applications can be deployed on a variety of platforms and hosting environments, such as traditional web servers, cloud-based platforms, or even specialized "serverless" architectures.
+In this class, you'll run the server, database, and client all on your laptop. 
+Each component will communicate with the others as if they were separate -- but 
+they'll just be on your computer.
+
+> ### How does one computer act like multiple computers?
+> **Ports**. Each component of your local application will use a different 
+> _port_ on your computer. For instance, the server might use port 8000, the 
+> database might use port 5432, and the browser might use port 50025.
+> 
+> When you have multiple tabs open in your browser, it may use multiple ports to
+> communicate with different websites. Read more on [this post on superuser](https://superuser.com/questions/1055281/do-web-browsers-use-different-outgoing-ports-for-different-tabs).
+
+## Local Development
+
+Running multiple components on your computer is called _local_ development. As
+the architectures you design get more complicated, you'll learn how to configure
+your local _environment_ so that you can run the components you need.
+
+When you deploy web applications, you'll run the server and database on 
+different computers, and make your application available at a public URL so that 
+client web browsers on laptops and phones can communicate with the server.
+
+## Check your understanding
+
+Try answering these questions. You may need to search online for the answers.
+
+1. What port is typically used for local development with Flask? What about
+   Express? Postgres?
+2. Why might developers split an application into multiple pieces?
+3. Imagine an application that's been split into multiple services that each run
+   on separate machines. How do you think they would communicate with each
+   other?
