@@ -63,15 +63,6 @@ each week. They will be graded based on completion, not correctness. Submitting
 any of the practice exercises for a given week will count towards the practice
 exercise grade for the course. You are required to submit ten exercises throughout the term.
 
-### How to submit your practice exercise
-
-- Fill the Web application development practice log weekly
-- Link [here](https://forms.gle/Xh159oPgyPoRSJqFA).
-- You’ll need to share a link to your completed exercise (in the form)
-- This will be used for awarding marks
-- Each entry in the form will count for one of your ten required practice entries.
-
-
 ## Practice Exercise Submission
 
 You are required to submit documentation for 10 practice exercises over the
@@ -88,10 +79,12 @@ to document that you did the work, but we won't be checking if you got it right.
 practice page.
 * You can submit a link to a github repo, a replit, a Google doc, or some other 
 resource.
+* Each entry in the form will count for one of your ten required practice entries.
 
-Your log will count for credit as long as it:
-- is accessible to your instructor
-- shows your own work
+Your entry in the log will count for credit as long as it:
+* is accessible to your instructor
+* shows your own work
+
 
 ## Why practice?
 
