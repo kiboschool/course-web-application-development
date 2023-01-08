@@ -1,5 +1,11 @@
 # Web Apps
 
+<details><summary>Watch: Week 1 - Introduction</summary>
+
+<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://youtu.be/GWHtHSXXhks" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+</details>
+
 A web application is a software application that runs on the web.
 
 In this course, you'll learn how web apps work, and how to build them using
