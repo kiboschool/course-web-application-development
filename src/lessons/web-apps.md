@@ -6,6 +6,8 @@
 
 </details>
 
+You can also find the video [here](https://youtu.be/GWHtHSXXhks).
+
 A web application is a software application that runs on the web.
 
 In this course, you'll learn how web apps work, and how to build them using
