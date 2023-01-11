@@ -14,6 +14,8 @@ application by exploring the source code.
 * [Live demo of the application](https://ls.up.railway.app/)
 * [Source code of the different implementations](https://github.com/kiboschool/link-shortener)
 
+How do you read code? Check out this [section from C4S](https://c4s.vercel.app/communicating-for-success/reading-well/reading-technical-writing.html#code) about reading code for tips. Be sure to check out the [video on reading code](https://youtu.be/xZZ74d8XUl0) with Felienne Hermans.
+
 ## Submission
 
 To get credit for the assignment:
