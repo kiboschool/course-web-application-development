@@ -1,5 +1,10 @@
 # Project: AI Chatbot
 
+_Due Date: Feb 17_
+
+> This is an **individual project**. You are expected to submit your own solution,
+> not to work with a partner or team.
+
 In this assignment, you'll follow the tutorial to build an AI chatbot
 application.
 
