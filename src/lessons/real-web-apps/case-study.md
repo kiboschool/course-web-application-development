@@ -1,5 +1,10 @@
 # Assignment: Case Study
 
+_Due Date: Mar 17_
+
+> This is an **individual project**. You are expected to submit your own solution,
+> not to work with a partner or team.
+
 'Real' web applications are different from the applications you've worked with
 in this course. They follow the same principles, but they tend to be much
 larger, much longer-lived, and have much larger teams working on them. They also
