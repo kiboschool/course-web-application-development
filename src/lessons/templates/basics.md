@@ -40,6 +40,12 @@ def say_hello():
 <h1>Hello, {{name}}</h1>
 ```
 
+>Video: Templates Demonstration
+
+<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe width="716" height="403" src="https://www.youtube.com/embed/5Yr2RABt4Zs" title="WD-JAN-23-Templates demonstration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+
+
+
 ## Jinja2 syntax
 
 As you saw in the example, the template syntax is a little different than

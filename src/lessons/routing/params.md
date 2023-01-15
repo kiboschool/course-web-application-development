@@ -43,11 +43,11 @@ def show_pet(id):
   # ... id will be an int
 ```
 
-<details><summary>Video: Routing Demonstration</summary>
+>Video: Routing Demonstration
 
 <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe width="716" height="403" src="https://www.youtube.com/embed/hvd-_DvjpN0" title="WD-JAN-23-Routing demonstration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
 
-</details>
+
 
 ## Query Parameters
 
