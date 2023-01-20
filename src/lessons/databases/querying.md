@@ -25,7 +25,7 @@ of New York.
 Another example, an INSERT statement is used to insert new data into a table, it 
 may look like this:
 
-```
+```sql
 INSERT INTO customers (first_name, last_name, email) VALUES ('John', 'Doe', 'johndoe@example.com');
 ```
 
@@ -44,6 +44,48 @@ some queries.
 
 Let's see some examples of queries on the countries database.
 
+```sh
+sqlite3 countries_database.sqlite
+```
+
+### SELECT
+
+The SELECT statement lets us pick out data from the database.
+
+First, lets try selecting all the data:
+
+```sql
+sqlite> SELECT * FROM countries;
+Afghanistan |ASIA (EX. NEAR EAST)         |31056997|647500|48,0|0,00|23,06|163,07|700|36,0|3,2|12,13|0,22|87,65|1|46,6|20,34|0,38|0,24|0,38
+Albania |EASTERN EUROPE                     |3581655|28748|124,6|1,26|-4,93|21,52|4500|86,5|71,2|21,09|4,42|74,49|3|15,11|5,22|0,232|0,188|0,579
+(..224 rows)
+Zimbabwe |SUB-SAHARAN AFRICA                 |12236805|390580|31,3|0,00|0|67,69|1900|90,7|26,8|8,32|0,34|91,34|2|28,01|21,84|0,179|0,243|0,579
+```
+
+That's more data than we wanted!
+
+Let's turn on some sqlite settings to make the data easier to read:
+
+```sql
+sqlite> .headers on
+sqlite> .mode columns
+```
+
+Instead of selecting everything, lets just select the country and population. 
+
+```sql
+sqlite> SELECT country, population FROM countries;
+Country                            Population
+---------------------------------  ----------
+Afghanistan                        31056997
+Albania                            3581655
+...
+Zimbabwe                           12236805
+```
+
+SELECT lets us get data from the database. There are a lot more ways to use
+SELECT, but it's better to practice hands-on than to just read!
+
 ## Practice: SQL Select in SQLBolt
 
 SQL takes a lot of practice!
@@ -51,8 +93,3 @@ SQL takes a lot of practice!
 Read the introduction and first lesson on [SQLBolt](https://sqlbolt.com/). 
 
 Complete the interactive exercises to practice writing queries.
-
-
-## Querying from Python
-
-

@@ -31,6 +31,12 @@ Check your knowledge of SELECT queries by completing the review on SQLBolt:
 
 [SQL Review: Simple Select Queries](https://sqlbolt.com/lesson/select_queries_review)
 
+## SQLZoo: More SELECT Practice
+
+Get another perspective on SELECT queries with SQLZoo.
+
+[SQLZoo SQL Tutorial](https://sqlzoo.net/wiki/SQL_Tutorial)
+
 <!--
 
 ## Making it real
