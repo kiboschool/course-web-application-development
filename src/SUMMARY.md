@@ -30,10 +30,8 @@
   - [Static files](lessons/routing/static.md)
   - [Practice](lessons/templates/practice.md)
   - [Project: Number Guessing Game](lessons/templates/project.md)
-<!--
-  - [Bonus: Third-party code](lessons/routing/third-party-code.md) -->
+  - [Bonus: Third-party code](lessons/routing/third-party-code.md)
 
-<!--
 ### Week 3 - Databases
 
 - [Databases](lessons/databases.md) 
@@ -44,6 +42,7 @@
   - [Database Management](lessons/databases/management.md)
   - [Practice](lessons/databases/practice.md)
 
+<!--
 ### Week 4 - Forms
 
 - [Forms](lessons/forms.md)
@@ -101,6 +100,7 @@
 ### Week 9 - Patterns
 
 - [Patterns](lessons/patterns.md)
+  - [Common Features](lessons/patterns/common.md)
   - [Responsive Design](lessons/patterns/responsive.md)
   - [MVC](lessons/patterns/mvc.md)
   - [ORMs](lessons/patterns/orms.md)
