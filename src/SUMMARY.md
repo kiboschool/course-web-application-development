@@ -39,7 +39,8 @@
   - [Setting up a SQLite database](lessons/databases/setting-up-sqlite.md)
   - [Querying](lessons/databases/querying.md)
   - [Selecting and filtering](lessons/databases/selecting-and-filtering.md)
-  - [Database Management](lessons/databases/management.md)
+  - [Limit and Order](lessons/databases/limit-and-order.md)
+  <!-- - [Database Management](lessons/databases/management.md) -->
   - [Practice](lessons/databases/practice.md)
 <!--
   - [Persistence](lessons/databases/persistence.md)

@@ -25,7 +25,13 @@ Your log will count for credit as long as it:
 - is accessible to your instructor
 - shows your own work
 
-## Query practice
+## SQLBolt: SELECT Queries Review
+
+Check your knowledge of SELECT queries by completing the review on SQLBolt:
+
+[SQL Review: Simple Select Queries](https://sqlbolt.com/lesson/select_queries_review)
+
+<!--
 
 ## Making it real
 
@@ -42,3 +48,5 @@ pages based on a SQL query.
 
 You'll connect what you know about routing and templating to what you've learned
 about SQL databases.
+
+-->
