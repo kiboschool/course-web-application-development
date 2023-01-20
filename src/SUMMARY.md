@@ -40,7 +40,7 @@
   - [Querying](lessons/databases/querying.md)
   - [Selecting and filtering](lessons/databases/selecting-and-filtering.md)
   - [Limit and Order](lessons/databases/limit-and-order.md)
-  <!-- - [Database Management](lessons/databases/management.md) -->
+  - [Database Management](lessons/databases/management.md)
   - [Practice](lessons/databases/practice.md)
 <!--
   - [Persistence](lessons/databases/persistence.md)
