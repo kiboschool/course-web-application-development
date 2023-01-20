@@ -4,7 +4,6 @@ _Due Date: Feb 5_
 
 In this project, you'll build a custom quiz app using Flask.
 
-<!--
 > This is a **Team Project**. You'll work in groups of **2-3 students** to
 > design and build your application.
 >
@@ -60,5 +59,3 @@ any of these apps.
 2. Submit your project in Gradescope (as a team).
 3. Upload your work to Woolf (each team member should upload the files to
    Woolf).
-
--->
