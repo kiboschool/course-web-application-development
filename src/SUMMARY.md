@@ -42,9 +42,13 @@
   - [Limit and Order](lessons/databases/limit-and-order.md)
   - [Database Management](lessons/databases/management.md)
   - [Practice](lessons/databases/practice.md)
+  - [Bonus: Migrations and Seeding](lessons/databases/migrations-and-seeding.md)
+
 <!--
+
   - [Persistence](lessons/databases/persistence.md)
   - [Bonus: Other DBs](lessons/databases/other-databases.md)
+
       -->
 
 <!--

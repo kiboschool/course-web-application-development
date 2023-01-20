@@ -124,17 +124,3 @@ Read the SQLBolt lessons on Altering and Dropping tables:
 - [SQL Lesson 18: Dropping tables](https://sqlbolt.com/lesson/dropping_tables)
 
 Practice the exercises to work on your database management skills.
-
-## Migrations
-
-Your application expects the schema to have a particular shape. When you change
-the schema, you often change the code too.
-
-Using Git, it's easy (well, at least possible) to share your code changes. How
-do you share your schema changes?
-
-The answer is _migrations_.
-
-
-## Seeding
-
