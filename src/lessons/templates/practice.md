@@ -46,7 +46,6 @@ Here are the requirements:
 ## Debug: static file serving
 
 (typing speed test)
-
-## Flask and Bootstrap
+ Flask and Bootstrap
 
 -->

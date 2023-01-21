@@ -30,20 +30,28 @@
   - [Static files](lessons/routing/static.md)
   - [Practice](lessons/templates/practice.md)
   - [Project: Number Guessing Game](lessons/templates/project.md)
-<!--
-  - [Bonus: Third-party code](lessons/routing/third-party-code.md) -->
+  - [Bonus: Third-party code](lessons/routing/third-party-code.md)
 
-<!--
 ### Week 3 - Databases
 
 - [Databases](lessons/databases.md) 
-  - [Persistence](lessons/databases/persistence.md)
   - [Relational DBs](lessons/databases/relational-dbs.md)
+  - [Setting up a SQLite database](lessons/databases/setting-up-sqlite.md)
   - [Querying](lessons/databases/querying.md)
   - [Selecting and filtering](lessons/databases/selecting-and-filtering.md)
+  - [Limit and Order](lessons/databases/limit-and-order.md)
   - [Database Management](lessons/databases/management.md)
   - [Practice](lessons/databases/practice.md)
+  - [Bonus: Migrations and Seeding](lessons/databases/migrations-and-seeding.md)
 
+<!--
+
+  - [Persistence](lessons/databases/persistence.md)
+  - [Bonus: Other DBs](lessons/databases/other-databases.md)
+
+      -->
+
+<!--
 ### Week 4 - Forms
 
 - [Forms](lessons/forms.md)
@@ -101,6 +109,7 @@
 ### Week 9 - Patterns
 
 - [Patterns](lessons/patterns.md)
+  - [Common Features](lessons/patterns/common.md)
   - [Responsive Design](lessons/patterns/responsive.md)
   - [MVC](lessons/patterns/mvc.md)
   - [ORMs](lessons/patterns/orms.md)
