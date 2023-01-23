@@ -37,12 +37,14 @@ Get another perspective on SELECT queries with SQLZoo.
 
 [SQLZoo SQL Tutorial](https://sqlzoo.net/wiki/SQL_Tutorial)
 
-<!--
-
 ## Making it real
 
-- Switch from mock data to a query
+Learn about mock data, and practice making real SQL queries from a python CLI
+application.
 
+[Open "Making it real" in Github Classroom](https://classroom.github.com/a/SjD--V9Y)
+
+<!--
 ## The Great Migration
 
 - Migration to add a column for a feature
