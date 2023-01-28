@@ -48,21 +48,25 @@
 
   - [Persistence](lessons/databases/persistence.md)
   - [Bonus: Other DBs](lessons/databases/other-databases.md)
-
       -->
 
-<!--
 ### Week 4 - Forms
 
 - [Forms](lessons/forms.md)
   - [HTML Forms](lessons/forms/html-forms.md)
-  - [INSERT and UPDATE](lessons/forms/insert-update.md)
-  - [REST and CRUD](lessons/forms/rest-and-crud.md)
+  - [Form Data](lessons/forms/form-data.md)
+  - [INSERT, UPDATE, and DELETE](lessons/forms/insert-update.md)
   - [Parsing and Validation](lessons/forms/parsing-and-validation.md)
   - [SQL Injection](lessons/forms/sql-injection.md)
+  - [Styling Forms](lessons/forms/styling-forms.md)
+  - [Accessibility](lessons/forms/accessibility.md)
   - [Practice](lessons/forms/practice.md)
   - [Assignment: SQL Injection](lessons/forms/assignment.md)
+  <!--
+  - [Bonus: REST and CRUD](lessons/forms/rest-and-crud.md)
+      -->
 
+<!--
 ### Week 5 - Data Modeling
 
 - [Data Modeling](lessons/data-modeling.md)

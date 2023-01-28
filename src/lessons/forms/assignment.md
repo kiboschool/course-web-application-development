@@ -1,6 +1,6 @@
 # Assignment: SQL Injection
 
-_Due Date: Feb 3_ 
+_Due Date: Feb 7_ 
 
 > This is an **individual project**. You are expected to submit your own solution,
 > not to work with a partner or team.
@@ -15,4 +15,6 @@ injection queries.
 
 [https://classroom.github.com/a/pnosO_LB](https://classroom.github.com/a/pnosO_LB)
 
+## Submission
 
+After you complete the assignment and push your solution to Github, submit your work in Gradescope and Woolf to receive credit.
