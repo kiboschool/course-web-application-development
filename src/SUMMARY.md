@@ -61,7 +61,9 @@
   - [Server-side Validation](lessons/forms/server-side-validation.md)
   - [Database constraints](lessons/forms/database-constraints.md)
   - [SQL Injection](lessons/forms/sql-injection.md)
+  <!--
   - [Practice](lessons/forms/practice.md)
+      -->
   - [Assignment: SQL Injection](lessons/forms/assignment.md)
   <!--
   - [Bonus: Styling Forms](lessons/forms/styling-forms.md)
