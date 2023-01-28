@@ -125,6 +125,7 @@
   - [Project: Case Study](lessons/real-web-apps/case-study.md)
     - [TLDraw](lessons/real-web-apps/tldraw.md)
     - [OTW and AO3](lessons/real-web-apps/otw.md)
+    - [Github Pages](lessons/real-web-apps/github-pages.md)
     - [Matrix Element](lessons/real-web-apps/element.md)
     - [MediaWiki](lessons/real-web-apps/mediawiki.md)
     - [Ghost and Wordpress](lessons/real-web-apps/ghost-wordpress.md)
