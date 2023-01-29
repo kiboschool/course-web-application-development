@@ -43,9 +43,7 @@
   - [Database Management](lessons/databases/management.md)
   - [Practice](lessons/databases/practice.md)
   - [Bonus: Migrations and Seeding](lessons/databases/migrations-and-seeding.md)
-
 <!--
-
   - [Persistence](lessons/databases/persistence.md)
   - [Bonus: Other DBs](lessons/databases/other-databases.md)
       -->
@@ -61,9 +59,7 @@
   - [Server-side Validation](lessons/forms/server-side-validation.md)
   - [Database constraints](lessons/forms/database-constraints.md)
   - [SQL Injection](lessons/forms/sql-injection.md)
-  <!--
   - [Practice](lessons/forms/practice.md)
-      -->
   - [Assignment: SQL Injection](lessons/forms/assignment.md)
   <!--
   - [Bonus: Styling Forms](lessons/forms/styling-forms.md)
