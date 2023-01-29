@@ -24,6 +24,14 @@ If the form's `method` is `"get"`, it is submitted with a GET request, and the d
 
 For POST requests, the data is sent in the body of the HTTP request. The browser will form-encode the data, and include a Content-Type header `"x-www-form-urlencoded"`, which is a standard format for sending data in HTML forms. The server looks at that header and decode the data in the body.
 
+## Form data video
+
+See this video on the basics of submitting form data and accessing it using Flask.
+
+<div class="embed"><iframe src="https://www.youtube.com/embed/9MHYHgh4jYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+
+Here's a longer video that shows [building forms in more detail](https://www.youtube.com/watch?v=Rxp3mkg2mRQ).
+
 ## Data for other form elements
 
 For form elements like radio buttons, checkboxes, and select fields, the data is also sent as key-value pairs. The key is the name attribute of the form element, and the value is the selected or entered option.

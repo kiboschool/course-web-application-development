@@ -63,4 +63,3 @@ On the **server side**, parsing and validating inputs can include more complex v
 In the **database**, you can use _constraints_ to specify rules that prevent invalid data. These aren't always easy to construct or as flexible as your application code, but they provide the most robust protection against invalid data in your application.
 
 Both client-side and server-side validation should be used together, so that users have clear feedback, and your application is secure from attackers and invalid data.
-

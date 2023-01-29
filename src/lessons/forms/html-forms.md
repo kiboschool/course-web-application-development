@@ -4,6 +4,14 @@ HTML forms are used to collect user input. They typically consist of a set of fo
 
 When the user submits the form, it sends an HTTP request to the server with the data entered into the inputs.
 
+## Forms Intro Video
+
+Check out this quick overview video covering the basics of HTML forms and input elements.
+
+<div class="embed"><iframe src="https://www.youtube.com/embed/2O8pkybH6po" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+
+> Note the use of the `<label>` tag to label the forms.
+
 ## Form elements
 
 The `<form>` tag defines a form.

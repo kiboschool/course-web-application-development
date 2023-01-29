@@ -2,6 +2,16 @@
 
 SQL injection is a type of security vulnerability that allows an attacker to insert malicious code into an SQL statement, usually through an unprotected user input in a web application. The injected code can then be executed by the database, potentially giving the attacker access to sensitive data or allowing them to make unauthorized changes to the database.
 
+## Video: Building a SQL Injection Attack
+
+This video shows the attacker's perspective on attacking a website. It walks through building a basic SQL injection attack, and then how to use various tools to analyze and protect vulnerabilities.
+
+<div class="embed"><iframe src="https://www.youtube.com/embed/cx6Xs3F_1Uc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+
+> There's a lot of extras in this video about security and networking. We're focused on SQL injection right now, so don't worry about all of the other tools and terms.
+
+## What is SQL injection?
+
 For example, let's say a web application has a login form that takes a username and password and checks them against a database to see if they match. 
 
 If the application is not properly protected, an attacker could enter a malicious username and password like this:

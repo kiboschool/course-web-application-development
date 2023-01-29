@@ -10,6 +10,12 @@ You _must_ validate data on the server.
 
 First, we'll look at manually validating data. Since validating data is so common, we'll also look at using a libary to handle common validation tasks.
 
+## Video: Handling Form Errors
+
+This video demonstrates form validation in Flask.
+
+<div class="embed"><iframe src="https://www.youtube.com/embed/r3Xmcdlx-Us" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+
 ## Manually validating data
 
 The basic idea of validation is to check the form data against a series of validation rules.
