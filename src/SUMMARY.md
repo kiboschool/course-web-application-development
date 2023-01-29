@@ -71,10 +71,12 @@
 ### Week 5 - Data Modeling
 
 - [Data Modeling](lessons/data-modeling.md)
-  - [Foreign Keys and JOINS](lessons/data-modeling/fk-join.md)
   - [Relations and Normalization](lessons/data-modeling/relations-and-normalization.md)
+  - [Foreign Keys and JOINS](lessons/data-modeling/fk-join.md)
+  - [Entity-Relationship Diagrams](lessons/data-modeling/erds.md)
   - [Belongs-to and Has-many](lessons/data-modeling/belongs-to-has-many.md)
   - [Has-many-through](lessons/data-modeling/has-many-through.md)
+  - [Database constraints](lessons/data-modeling/database-constraints.md)
   - [N+1 queries](lessons/data-modeling/n-plus-one.md)
   - [Practice](lessons/data-modeling/practice.md)
   - [Project: Product Info](lessons/data-modeling/project.md)
