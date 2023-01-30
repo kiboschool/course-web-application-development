@@ -31,7 +31,10 @@ Your log will count for credit as long as it:
 
 Debug a data model
 
+## N+1 query fix
+
 ## Tutorial: Wikipedia search 
-step-by-step tutorial 
+
+Step-by-step tutorial 
   - link crawler
   - search using LIKE

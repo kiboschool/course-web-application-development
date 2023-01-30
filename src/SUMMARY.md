@@ -79,7 +79,7 @@
   - [N+1 queries](lessons/data-modeling/n-plus-one.md)
   - [Practice](lessons/data-modeling/practice.md)
   - [Project: Product Info](lessons/data-modeling/project.md)
-  - [Explain, Indexes, and Tuning](lessons/data-modeling/explain-indexes-tuning.md)
+  - [Bonus: Database performance](lessons/data-modeling/explain-indexes-tuning.md)
 
 ### Week 6 - APIs
 
