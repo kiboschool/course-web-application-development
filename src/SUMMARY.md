@@ -43,36 +43,43 @@
   - [Database Management](lessons/databases/management.md)
   - [Practice](lessons/databases/practice.md)
   - [Bonus: Migrations and Seeding](lessons/databases/migrations-and-seeding.md)
-
 <!--
-
   - [Persistence](lessons/databases/persistence.md)
   - [Bonus: Other DBs](lessons/databases/other-databases.md)
-
       -->
 
-<!--
 ### Week 4 - Forms
 
 - [Forms](lessons/forms.md)
   - [HTML Forms](lessons/forms/html-forms.md)
-  - [INSERT and UPDATE](lessons/forms/insert-update.md)
-  - [REST and CRUD](lessons/forms/rest-and-crud.md)
+  - [Form Data](lessons/forms/form-data.md)
+  - [INSERT, UPDATE, and DELETE](lessons/forms/insert-update.md)
   - [Parsing and Validation](lessons/forms/parsing-and-validation.md)
+  - [Client-side Validation](lessons/forms/client-side-validation.md)
+  - [Server-side Validation](lessons/forms/server-side-validation.md)
+  - [Database constraints](lessons/forms/database-constraints.md)
   - [SQL Injection](lessons/forms/sql-injection.md)
+  - [Styling Forms](lessons/forms/styling-forms.md)
+  - [Accessibility](lessons/forms/accessibility.md)
   - [Practice](lessons/forms/practice.md)
   - [Assignment: SQL Injection](lessons/forms/assignment.md)
+  <!--
+  - [REST and CRUD](lessons/forms/rest-and-crud.md)
+      -->
 
+<!--
 ### Week 5 - Data Modeling
 
 - [Data Modeling](lessons/data-modeling.md)
-  - [Foreign Keys and JOINS](lessons/data-modeling/fk-join.md)
   - [Relations and Normalization](lessons/data-modeling/relations-and-normalization.md)
-  - [Belongs-to and Has-many](lessons/data-modeling/belongs-to-has-many.md)
-  - [Has-many-through](lessons/data-modeling/has-many-through.md)
+  - [Foreign Keys and JOINS](lessons/data-modeling/fk-join.md)
+  - [Entity-Relationship Diagrams](lessons/data-modeling/erds.md)
+  - [Many-to-many relationships](lessons/data-modeling/many-to-many.md)
+  - [Database constraints](lessons/data-modeling/database-constraints.md)
   - [N+1 queries](lessons/data-modeling/n-plus-one.md)
   - [Practice](lessons/data-modeling/practice.md)
   - [Project: Product Info](lessons/data-modeling/project.md)
+  - [Bonus: Database performance](lessons/data-modeling/explain-indexes-tuning.md)
 
 ### Week 6 - APIs
 

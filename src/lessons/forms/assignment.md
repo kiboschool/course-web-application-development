@@ -1,6 +1,6 @@
 # Assignment: SQL Injection
 
-_Due Date: Feb 3_ 
+_Due Date: Feb 7_ 
 
 > This is an **individual project**. You are expected to submit your own solution,
 > not to work with a partner or team.
@@ -11,8 +11,10 @@ an attack against a route in an application.
 Then, you'll update the code in the application so that it's safe against SQL
 injection queries.
 
-[![Click to open the project](https://img.shields.io/static/v1?label=Open%20Project&message=Flask%20Guess%20my%20number&color=blue)](https://classroom.github.com/a/pnosO_LB)
+[![Click to open the project](https://img.shields.io/static/v1?label=Open%20Project&message=SQL%20Injection&color=blue)](https://classroom.github.com/a/pnosO_LB)
 
 [https://classroom.github.com/a/pnosO_LB](https://classroom.github.com/a/pnosO_LB)
 
+## Submission
 
+After you complete the assignment and push your solution to Github, submit your work in Gradescope and Woolf to receive credit.

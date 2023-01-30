@@ -22,7 +22,9 @@ attack.
 ## Topics
 
 * HTML form elements 
-* Inserting and Updating data in the database
-* REST and CRUD patterns
+* Handling form data
+* Inserting and updating data in the database
 * Parsing and input validation
 * SQL injection
+* Styling forms
+* Accessibility

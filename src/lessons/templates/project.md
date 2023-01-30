@@ -1,6 +1,6 @@
 # Project: Number Guessing Game
 
-_Due Date: Jan 20_
+_Due Date: Jan 27_
 
 > This is an **individual project**. You are expected to submit your own solution,
 > not to work with a partner or team.
