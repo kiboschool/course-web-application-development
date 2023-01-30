@@ -68,3 +68,16 @@ WHERE students.id = 10;
 In this statement, we first join the "courses" table with the "enrollments" table on the course_id column. Then we join the "enrollments" table with the "students" table on the student_id column. Finally, we filter the results to only show the courses enrolled by the student with `id = 10`.
 
 When we're writing JOIN queries, it's important to include the name of the table in the `WHERE` clause. Since more than one table has a column called `id`, SQL needs the name of the table to determine which `id` is meant.
+
+## Practice: querying many-to-many
+
+Practice reading and writing queries for multiple tables using a restaurant dataset on Replit.
+
+[Open Restaurant Reviews on Replit](https://replit.com/@kibocurriculum/Restaurant-Reviews)
+
+Fork the repl to begin.
+
+1. Start by reading schema.sql to get a sense for the tables
+2. Read and run main.sql to see a little bit about what the data is like, and to see some example queries.
+3. Try writing some queries! Follow the instructions at the bottom of main.sql for some queries to try.
+
