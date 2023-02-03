@@ -1,6 +1,6 @@
 # Assignment: Product Info
 
-_Due Date: Feb 10_
+_Due Date: Feb 21_ 
 
 > This is a **Team Project**. You'll work in groups of **2-3 students** to
 > design and build your application.

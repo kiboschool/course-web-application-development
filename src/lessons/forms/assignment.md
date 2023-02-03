@@ -1,6 +1,6 @@
 # Assignment: SQL Injection
 
-_Due Date: Feb 7_ 
+_Due Date: Feb 14_ 
 
 > This is an **individual project**. You are expected to submit your own solution,
 > not to work with a partner or team.

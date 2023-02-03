@@ -12,15 +12,19 @@ Picture the schema for a microblogging application like Twitter. What data does 
 - Direct Messages
 - ...probably many others!
 
-Now that you've seen the basics of databases and forms, you are ready for more complicated data models, and schemas with many tables.
+Now that you've seen the basics of databases and forms, you are ready for more complicated data models, and schemas with many tables. Before learning how to design schemas _correctly_, let's see some of the errors and inconsistencies that can happen with bad schema design.
+
+## Video: Learn Database Normalization
+
+This video walks through all of the different kinds of data consistency errors and the normal forms that can make those inconsistencies impossible.
+
+<div class="embed"><iframe src="https://www.youtube.com/embed/GFQaEYEc8_8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
 
 ## Anomalies and Inconsistencies
 
 When designing a schema, you want to make sure the data is correct, consistent, and easy to work with.
 
-Before learning how to design schemas _correctly_, let's see some of the errors and inconsistencies that can happen with bad schema design.
-
-Here's an orders table that also stores information about the _product_ and _customer_.
+Here's a poorly-designed _orders_ table that also stores information about the _product_ and _customer_.
 
 ```sql
 CREATE TABLE orders (
@@ -92,6 +96,8 @@ Notice also the use of constraints to ensure the data stays consistent. You've s
 
 ## Rules of Normalization
 
+These aren't all of the normalization rules, but if you keep these in mind, you'll end up with better database designs.
+
 1. Store data in separate tables. Each kind of item should be stored in its own table, rather than all data being stored in a single table.
 
 2. Avoid repeating data. Data should not be repeated in multiple places, and instead should be stored in one location and referenced from other tables as needed.
@@ -99,9 +105,3 @@ Notice also the use of constraints to ensure the data stays consistent. You've s
 3. Columns should only contain single values. Don't put a list in a single column!
 
 4. Minimize data dependencies. If updating one field or row would mean that you need to update another row in order to stay consistent, there might be a better way to design the schema so that it's impossible to "forget to update" part of the data.
-
-## Video: Learn Database Normalization
-
-This video walks through all of the different kinds of data consistency errors and the normal forms that can make those inconsistencies impossible.
-
-<div class="embed"><iframe src="https://www.youtube.com/embed/GFQaEYEc8_8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
