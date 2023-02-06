@@ -16,10 +16,10 @@ Your overall course grade is made up of the following:
 | Week 1 | Web App Tour | Jan 17 |
 | Week 2 | Number Guessing game | Jan 24 |
 | Week 3 | **None** | -- |
-| Midterm Project | Flask quiz game | Feb 5 |
-| Week 4 | SQL injection | Feb 7 |
-| Week 5 | Product info pages | Feb 14 |
-| Week 6 | AI Chatbot | Feb 21 |
+| Midterm Project | Flask quiz game | Feb 7 |
+| Week 4 | SQL injection | Feb 14 |
+| Week 5 | Product info pages | Feb 21 |
+| Week 6 | AI Chatbot | Feb 28 |
 | Week 7 | **None** | -- |
 | Final Project | Multi-model CRUD app | Mar 8 |
 | Week 8 | Deployment | -- |

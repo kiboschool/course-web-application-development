@@ -67,7 +67,6 @@
   - [REST and CRUD](lessons/forms/rest-and-crud.md)
       -->
 
-<!--
 ### Week 5 - Data Modeling
 
 - [Data Modeling](lessons/data-modeling.md)
@@ -76,11 +75,12 @@
   - [Entity-Relationship Diagrams](lessons/data-modeling/erds.md)
   - [Many-to-many relationships](lessons/data-modeling/many-to-many.md)
   - [Database constraints](lessons/data-modeling/database-constraints.md)
-  - [N+1 queries](lessons/data-modeling/n-plus-one.md)
   - [Practice](lessons/data-modeling/practice.md)
   - [Project: Product Info](lessons/data-modeling/project.md)
+  - [Bonus: N+1 queries](lessons/data-modeling/n-plus-one.md)
   - [Bonus: Database performance](lessons/data-modeling/explain-indexes-tuning.md)
 
+<!--
 ### Week 6 - APIs
 
 - [APIs](lessons/apis.md)

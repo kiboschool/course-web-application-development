@@ -1,6 +1,6 @@
 # Midterm Project: Quiz App
 
-_Due Date: Feb 5_
+_Due Date: Feb 7_
 
 In this project, you'll build a custom quiz app using Flask.
 
