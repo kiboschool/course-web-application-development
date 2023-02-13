@@ -1,15 +1,23 @@
-# Project: AI Chatbot
+# Assignment: Product Info
 
-_Due Date: Feb 17_
+_Due Date: Feb 21_ 
 
-> This is an **individual project**. You are expected to submit your own solution,
-> not to work with a partner or team.
+> This is a **Team Project**. You'll work in groups of **2-3 students** to
+> design and build your application.
+>
+> 1. Form your groups and communicate with your team before you accept the
+>    assignment in Github Classroom.
+> 2. Join the same team in Github Classroom. Work on your project together.
+>    Ideally, find a time when you can all join a video call and work together on
+>    the project. Everyone in the group should have a roughly equal contribution
+>    to the project.
+> 3. Submit your project as a group in Gradescope.
 
-In this assignment, you'll follow the tutorial to build an AI chatbot
-application.
+In this assignment, you'll be updating a Flipkart clone so that it
+serves data as an API in addition to rendering HTML pages. Then, you'll
+update the search feature. 
 
-The application will use the OpenAI API and the Discord API, so you will need to
-create API keys for each of those tools.
+> **[Open the project on Github Classroom]()**
 
-You'll rely on the documentation from [OpenAI](https://beta.openai.com/docs/quickstart/build-your-application)
-and [Discord](https://discord.com/developers/docs).
+<!-- project template here: https://github.com/kiboschool/flipkart-filter -->
+

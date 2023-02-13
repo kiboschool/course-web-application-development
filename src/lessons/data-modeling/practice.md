@@ -66,10 +66,12 @@ You can get more JOIN practice with the exercises on SQLZoo:
 - [JOIN Quiz](https://sqlzoo.net/wiki/JOIN_Quiz)
 - [More JOIN Operations](https://sqlzoo.net/wiki/More_JOIN_operations)
 
-<!-- 
-## Tutorial: Wikipedia search 
+> SQLBolt also has lessons on other kinds of queries, like aggregations. If you have time, it's good to get more SQL practice.
 
-Step-by-step tutorial 
-  - link crawler
-  - search using LIKE
--->
+## Many to many relationships: Restaurants
+
+Practice working with many-to-many relationships by reading, running, and writing queries in the restaurant, tags, and reviews domain.
+
+1. Fork the [Restaurant Reviews replit](https://replit.com/@kibocurriculum/Restaurant-Reviews)
+2. Read the files there, and run the queries
+3. Practice writing queries, following the instructions in the comments

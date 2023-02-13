@@ -63,9 +63,6 @@
   - [Accessibility](lessons/forms/accessibility.md)
   - [Practice](lessons/forms/practice.md)
   - [Assignment: SQL Injection](lessons/forms/assignment.md)
-  <!--
-  - [REST and CRUD](lessons/forms/rest-and-crud.md)
-      -->
 
 ### Week 5 - Data Modeling
 
@@ -76,23 +73,22 @@
   - [Many-to-many relationships](lessons/data-modeling/many-to-many.md)
   - [Database constraints](lessons/data-modeling/database-constraints.md)
   - [Practice](lessons/data-modeling/practice.md)
-  - [Project: Product Info](lessons/data-modeling/project.md)
   - [Bonus: N+1 queries](lessons/data-modeling/n-plus-one.md)
   - [Bonus: Database performance](lessons/data-modeling/explain-indexes-tuning.md)
 
-<!--
 ### Week 6 - APIs
 
 - [APIs](lessons/apis.md)
+  - [API Basics](lessons/apis/basics.md)
+  - [Creating APIs](lessons/apis/creating-apis.md)
+  - [REST and CRUD](lessons/apis/rest-and-crud.md)
   - [External services](lessons/apis/services.md)
   - [Documentation](lessons/apis/documentation.md)
   - [API Authentication](lessons/apis/authentication.md)
-  - [Creating APIs](lessons/apis/creating-apis.md)
-  - [Webhooks](lessons/apis/webhooks.md)
-  - [API Considerations](lessons/apis/considerations.md)
   - [Practice](lessons/apis/practice.md)
-  - [Project: AI Chatbot](lessons/apis/project.md)
+  - [Project: Product Info](lessons/apis/project.md)
 
+<!--
 ### Week 7 - Auth
 
 - [Auth](lessons/auth.md)
@@ -101,6 +97,7 @@
   - [Emails](lessons/auth/email.md)
   - [Authorization](lessons/auth/authorization.md)
   - [OAuth](lessons/auth/oauth.md)
+  - [Project: AI Chatbot](lessons/auth/project.md)
   - [Practice](lessons/auth/practice.md)
 
 ### Week 8 - Deployment
