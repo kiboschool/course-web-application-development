@@ -88,7 +88,6 @@
   - [Practice](lessons/apis/practice.md)
   - [Project: Product Info](lessons/apis/project.md)
 
-<!--
 ### Week 7 - Auth
 
 - [Auth](lessons/auth.md)
@@ -97,9 +96,10 @@
   - [Emails](lessons/auth/email.md)
   - [Authorization](lessons/auth/authorization.md)
   - [OAuth](lessons/auth/oauth.md)
-  - [Project: AI Chatbot](lessons/auth/project.md)
   - [Practice](lessons/auth/practice.md)
+  - [Project: AI Chatbot](lessons/auth/project.md)
 
+<!--
 ### Week 8 - Deployment
 
 - [Deployment](lessons/deployment.md)
