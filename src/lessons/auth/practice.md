@@ -25,8 +25,15 @@ Your log will count for credit as long as it:
 - is accessible to your instructor
 - shows your own work
 
-## Tutorial: adding passwords
+## Tutorial: Passwords in PassportJS
 
-## Tutorial: role-based authentication
+https://www.passportjs.org/tutorials/password/
 
-## Vulnerability hunt
+## Tutorial: Passwords in Flask
+
+https://dev.to/nagatodev/adding-authentication-to-a-flask-application-53ep
+
+## Tutorial: "Sign in with Google" with PassportJS
+
+https://www.passportjs.org/tutorials/google/
+

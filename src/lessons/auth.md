@@ -20,10 +20,3 @@ the features as intended, and no more.
 As part of managing authentication, you'll learn about using external services
 to sign in, and learn more about sending emails from your application.
 
-## Links
-
-https://www.okta.com/video/oktane19-cryptographic-wrong-answers/
-
-https://www.crypto101.io/Crypto101.pdf
-
-https://cryptopals.com/

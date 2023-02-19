@@ -97,9 +97,10 @@
   - [Authorization](lessons/auth/authorization.md)
   - [OAuth](lessons/auth/oauth.md)
   - [Practice](lessons/auth/practice.md)
+  - [Bonus: Cryptography](lessons/auth/cryptography.md)
+<!--
   - [Project: AI Chatbot](lessons/auth/project.md)
 
-<!--
 ### Week 8 - Deployment
 
 - [Deployment](lessons/deployment.md)
