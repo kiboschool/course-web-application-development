@@ -92,14 +92,16 @@
 
 - [Auth](lessons/auth.md)
   - [Authentication](lessons/auth/authentication.md)
+  - [Auth flows](lessons/auth/flow.md)
   - [Passwords](lessons/auth/passwords.md)
   - [Emails](lessons/auth/email.md)
+  - [Cookies and Sessions](lessons/auth/cookies.md)
   - [Authorization](lessons/auth/authorization.md)
-  - [OAuth](lessons/auth/oauth.md)
   - [Practice](lessons/auth/practice.md)
   - [Bonus: Cryptography](lessons/auth/cryptography.md)
 <!--
   - [Project: AI Chatbot](lessons/auth/project.md)
+  - [Bonus: OAuth](lessons/auth/oauth.md)
 
 ### Week 8 - Deployment
 

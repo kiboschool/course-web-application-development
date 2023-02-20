@@ -1,6 +1,6 @@
 # Project: AI Chatbot
 
-_Due Date: Feb 17_
+_Due Date: Feb 28_
 
 > This is an **individual project**. You are expected to submit your own solution,
 > not to work with a partner or team.

@@ -27,13 +27,18 @@ Your log will count for credit as long as it:
 
 ## Tutorial: Passwords in PassportJS
 
-https://www.passportjs.org/tutorials/password/
+Complete the PassportJS tutorial to implement a password authentication strategy:
+
+> [Passport Tutorial: Password Authentication](https://www.passportjs.org/tutorials/password/)
 
 ## Tutorial: Passwords in Flask
 
-https://dev.to/nagatodev/adding-authentication-to-a-flask-application-53ep
+Complete this tutorial to add authentication to a Flask application:
+
+> [Dev.to: Adding Authentication to a Flask App](https://dev.to/nagatodev/adding-authentication-to-a-flask-application-53ep)
 
 ## Tutorial: "Sign in with Google" with PassportJS
 
-https://www.passportjs.org/tutorials/google/
+Use PassportJS to add 'Log in with Google' using Oauth
 
+> [Passport Tutorial: Sign in with Google](https://www.passportjs.org/tutorials/google/)

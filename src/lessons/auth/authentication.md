@@ -1,39 +1,41 @@
 # Authentication
 
-Authentication is how a user proves they are who they say they are.
+Authentication is **how a user proves they are who they say they are**.
 
 Apps can use different combinations of factors to authenticate who a user is. That could mean:
 
-* Credentials: Tokens, Usernames, Emails, Passwords
-* Device identifiers: Cookies, long-lived application sessions, phone number, multi-factor auth
-* Third-party services and SSO: using protocols like Oauth for a 'Sign in with X' flow
+* Credentials: tokens, usernames, email accounts, or passwords
+* Device identifiers: cookies, long-lived application sessions, phone numbers, or multi-factor auth
+* Third-party services and SSO: using protocols like Oauth for 'Sign in with Github' (or other providers)
 
 We'll cover the basics of how to build some of these flows in applications, and discuss how to decide which authentication experience is appropriate for the kind of application you are building.
 
 We will also discuss experiences that work without sign-in: phone and email-based services and guest checkout.
 
-> Note: **Authentication is hard**. We won't cover everything in this class, and there's a ton more to do to build secure systems. Thankfully, organizations like [OWASP](https://owasp.org/) make cheatsheets like the [Authentication Cheatsheet](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html) that can help you if you are building an authentication system.
+> **Authentication is a complex topic**.
+>
+> We won't cover everything in this class, and there's a ton more to do to build secure systems. Thankfully, organizations like [OWASP](https://owasp.org/) make cheatsheets like the [Authentication Cheatsheet](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html) that can help you if you are building an authentication system.
 
 ## Authentication Factors
 
 It's common to talk categorize the different kinds of factors that applications can use to verify someone's identity:
 
-- Something you know
-- Something you have
-- Something you are
+- Something you **know**
+- Something you **have**
+- Something you **are**
 
 _Passwords_, _pin codes_, and _security questions_ are something **only the user knows** (at least in theory). If only the user knows the password, then if the password is entered, then the person who entered it must be the user!
 
 _A device_ or a _token_ are examples of something **only the user has**. If you show the user a message in their authenticator app, or send them an SMS confirmation code, and they confirm the code, then they have the device, so the application has more confidence that they are who they say they are.
 
-_Something you are_ refers to biometric identifiers, like FaceID or using a fingerprint to log in. Biometric identifiers aren't something we'll build in this class, but they are a great option for identification if you are building applications for iOS or Android, since they provide developers with biometric identification tools.
+Biometric identifiers, like FaceID or fingerprint log in represent something that **only the user is**. Biometric identifiers aren't something we'll build in this class, but they are a great option for identification if you are building applications for iOS or Android, since those platforms provide developers with biometric identification tools.
 
 ### Further Reading: What is authentication?
 
 Read more about authentication from Cloudflare and Auth0:
 
-- [Cloudflare: What is authentication?](https://www.cloudflare.com/learning/access-management/what-is-authentication/)
-- [Auth0: What is authentication](https://auth0.com/intro-to-iam/what-is-authentication)
+> - [Cloudflare: What is authentication?](https://www.cloudflare.com/learning/access-management/what-is-authentication/)
+> - [Auth0: What is authentication](https://auth0.com/intro-to-iam/what-is-authentication)
 
 ## Credentials
 
@@ -86,7 +88,7 @@ Single Sign-on is a common enterprise feature, where users sign into their corpo
 
 We also won't cover OAuth or Single sign-on in depth in this course, but we will link to resources in case you want to learn more.
 
-- [Cloudflare: What is SSO?](https://www.cloudflare.com/learning/access-management/what-is-sso/)
+> [Cloudflare: What is SSO?](https://www.cloudflare.com/learning/access-management/what-is-sso/)
 
 ## Passwordless experiences
 

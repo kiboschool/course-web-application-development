@@ -20,3 +20,13 @@ the features as intended, and no more.
 As part of managing authentication, you'll learn about using external services
 to sign in, and learn more about sending emails from your application.
 
+## Authentication and Authorization
+
+There are two key words that both start with "Auth".
+
+**Authentication** is about verifying who someone is.
+
+**Authorization** is about granting access, based on who they are.
+
+Read more about the basics of [Authentication vs. Authorization from Auth0](https://auth0.com/docs/get-started/identity-fundamentals/authentication-and-authorization).
+
