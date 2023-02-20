@@ -88,17 +88,20 @@
   - [Practice](lessons/apis/practice.md)
   - [Project: Product Info](lessons/apis/project.md)
 
-<!--
 ### Week 7 - Auth
 
 - [Auth](lessons/auth.md)
   - [Authentication](lessons/auth/authentication.md)
+  - [Auth flows](lessons/auth/flow.md)
   - [Passwords](lessons/auth/passwords.md)
   - [Emails](lessons/auth/email.md)
+  - [Cookies and Sessions](lessons/auth/cookies.md)
   - [Authorization](lessons/auth/authorization.md)
-  - [OAuth](lessons/auth/oauth.md)
-  - [Project: AI Chatbot](lessons/auth/project.md)
   - [Practice](lessons/auth/practice.md)
+  - [Bonus: Cryptography](lessons/auth/cryptography.md)
+<!--
+  - [Project: AI Chatbot](lessons/auth/project.md)
+  - [Bonus: OAuth](lessons/auth/oauth.md)
 
 ### Week 8 - Deployment
 
