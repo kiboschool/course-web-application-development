@@ -5,16 +5,18 @@
 For your final project, you'll work with a team design and build a complete web 
 application.
 
+## Team Formation
+
 > This is a **Team Project**. You'll work in groups of **2-3 students** to
 > design and build your application.
 >
-> 1. Form your groups and communicate with your team before you accept the
->    assignment in Github Classroom.
-> 2. Join the same team in Github Classroom. Work on your project together.
->    Ideally, find a time when you can all join a video call and work together on
->    the project. Everyone in the group should have a roughly equal contribution
->    to the project.
+> 1. Form your groups and communicate with your team **before you accept the assignment in Github Classroom**.
+> 2. Join the same team in Github Classroom. Work on your project together. Ideally, find a time when you can all join a video call and work together on the project. Everyone in the group should have a roughly equal contribution to the project.
 > 3. Submit your project as a group in Gradescope.
+
+[**Join the project on Github Classroom**](https://classroom.github.com/a/fdK7bGl2)
+
+**Note**: Do not join a team you have not communicated with ahead of time. If someone joins your team without communicating with you, please reach out to the instructor.
 
 ## Requirements
 
