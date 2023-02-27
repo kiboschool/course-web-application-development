@@ -19,9 +19,9 @@ Your overall course grade is made up of the following:
 | Midterm Project | Flask quiz game | Feb 7 |
 | Week 4 | SQL injection | Feb 14 |
 | Week 5 | Product info pages | Feb 21 |
-| Week 6 | AI Chatbot | Feb 28 |
+| Week 6 | AI Chatbot | (optional) |
 | Week 7 | **None** | -- |
-| Final Project | Multi-model CRUD app | Mar 8 |
+| Final Project | Multi-model CRUD app | Mar 10 |
 | Week 8 | Deployment | -- |
 | Week 9 | **None** | -- |
 | Week 10 | Case Study | Mar 17 |

@@ -102,17 +102,17 @@
 <!--
   - [Project: AI Chatbot](lessons/auth/project.md)
   - [Bonus: OAuth](lessons/auth/oauth.md)
+-->
 
 ### Week 8 - Deployment
 
 - [Deployment](lessons/deployment.md)
-  - [Hosts and DNS](lessons/deployment/hosts.md)
-  - [Dependencies](lessons/deployment/dependencies.md)
-  - [Databases](lessons/deployment/databases.md)
-  - [Logs and monitoring](lessons/deployment/logs-monitoring.md)
-  - [Performance](lessons/deployment/performance.md)
-  - [Deploy Your Project](lessons/deployment/project.md)
+  - [Cloud Hosts](lessons/deployment/hosts.md)
+  - [Deploy a Project](lessons/deployment/project.md)
+  - [Domains and DNS](lessons/deployment/dns.md)
+  - [Domain names](lessons/deployment/domains.md)
 
+<!--
 ### Week 9 - Patterns
 
 - [Patterns](lessons/patterns.md)
