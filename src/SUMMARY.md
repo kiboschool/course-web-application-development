@@ -113,28 +113,14 @@
   - [Domain names](lessons/deployment/domains.md)
 
 <!--
-### Week 9 - Patterns
-
-- [Patterns](lessons/patterns.md)
-  - [Common Features](lessons/patterns/common.md)
-  - [Responsive Design](lessons/patterns/responsive.md)
-  - [MVC](lessons/patterns/mvc.md)
-  - [ORMs](lessons/patterns/orms.md)
-  - [Database Indexes](lessons/patterns/indexes.md)
-  - [Testing](lessons/patterns/testing.md)
-  - [Practice](lessons/patterns/practice.md)
-
-### Week 10 - Real Web Apps
-
+### Weeks 9/10 - Real Web Apps
 - [Real Web Apps](lessons/real-web-apps.md)
-  - [Reality](lessons/real-web-apps/reality.md)
-  - [Web architecture](lessons/real-web-apps/architecture.md)
+  - [Dealing with Reality](lessons/real-web-apps/reality.md)
+  - [Common Features](lessons/real-web-apps/common.md)
+  - [MVC](lessons/real-web-apps/mvc.md)
+  - [Real Databases](lessons/real-web-apps/databases.md)
+  - [Testing](lessons/real-web-apps/testing.md)
+  - [Practice](lessons/real-web-apps/practice.md)
+  - [Exploring Real Web Apps](lessons/real-web-apps/exploring.md)
   - [Project: Case Study](lessons/real-web-apps/case-study.md)
-    - [TLDraw](lessons/real-web-apps/tldraw.md)
-    - [OTW and AO3](lessons/real-web-apps/otw.md)
-    - [Github Pages](lessons/real-web-apps/github-pages.md)
-    - [Matrix Element](lessons/real-web-apps/element.md)
-    - [MediaWiki](lessons/real-web-apps/mediawiki.md)
-    - [Ghost and Wordpress](lessons/real-web-apps/ghost-wordpress.md)
-    - [Flask and Express](lessons/real-web-apps/flask-express.md)
 -->

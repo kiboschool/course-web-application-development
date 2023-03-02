@@ -9,6 +9,10 @@
 And hundreds of other consequences! Software engineers are maintaining these
 systems, not just building them from scratch.
 
+## Web architecture
+
+http://aosabook.org/en/distsys.html
+
 ## Real Devices
 
 - Browser compatibility tables
