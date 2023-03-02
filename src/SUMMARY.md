@@ -100,7 +100,6 @@
   - [Practice](lessons/auth/practice.md)
   - [Bonus: Cryptography](lessons/auth/cryptography.md)
 <!--
-  - [Project: AI Chatbot](lessons/auth/project.md)
   - [Bonus: OAuth](lessons/auth/oauth.md)
 -->
 
@@ -112,7 +111,6 @@
   - [Domains and DNS](lessons/deployment/dns.md)
   - [Domain names](lessons/deployment/domains.md)
 
-<!--
 ### Weeks 9/10 - Real Web Apps
 - [Real Web Apps](lessons/real-web-apps.md)
   - [Dealing with Reality](lessons/real-web-apps/reality.md)
@@ -120,7 +118,7 @@
   - [MVC](lessons/real-web-apps/mvc.md)
   - [Real Databases](lessons/real-web-apps/databases.md)
   - [Testing](lessons/real-web-apps/testing.md)
-  - [Practice](lessons/real-web-apps/practice.md)
   - [Exploring Real Web Apps](lessons/real-web-apps/exploring.md)
   - [Project: Case Study](lessons/real-web-apps/case-study.md)
--->
+  - [Practice](lessons/real-web-apps/practice.md)
+  - [Bonus: AI Chatbot](lessons/auth/project.md)
