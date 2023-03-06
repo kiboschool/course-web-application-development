@@ -15,20 +15,20 @@ For your final assignment, you will investigate two real-world web applications,
 
 ## Redash
 
-- https://github.com/getredash/redash
+[Redash on Github](https://github.com/getredash/redash)
 
 ## Ghost
 
-- https://github.com/TryGhost/Ghost
+[Ghost on Github](https://github.com/TryGhost/Ghost)
 
-- # files
-- # lines of code
-- # database models
-- # commits
-- # committers
+- number of files
+- number of lines of code
+- number of database models
+- number of commits
+- number of committers
 - age
 - language or languages it uses
-- # packages it uses
+- number of packages it uses
 - steps to get it running locally
 - routes
 - APIs it uses

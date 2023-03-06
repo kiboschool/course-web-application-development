@@ -17,11 +17,3 @@ manage web applications.
 You won't end this week an expert in each of these topics, but you will learn
 enough to recognize the terms and build a list of further ideas and concepts to
 explore after the course.
-
-## Topics
-
-- Responsive Design
-- ORMs
-- The MVC architecture
-- Database indexes
-- Testing

@@ -112,13 +112,15 @@
   - [Domain names](lessons/deployment/domains.md)
 
 ### Weeks 9/10 - Real Web Apps
+
 - [Real Web Apps](lessons/real-web-apps.md)
   - [Dealing with Reality](lessons/real-web-apps/reality.md)
-  - [Common Features](lessons/real-web-apps/common.md)
   - [MVC](lessons/real-web-apps/mvc.md)
   - [Real Databases](lessons/real-web-apps/databases.md)
   - [Testing](lessons/real-web-apps/testing.md)
   - [Exploring Real Web Apps](lessons/real-web-apps/exploring.md)
   - [Project: Case Study](lessons/real-web-apps/case-study.md)
   - [Practice](lessons/real-web-apps/practice.md)
+<!--
   - [Bonus: AI Chatbot](lessons/auth/project.md)
+-->
