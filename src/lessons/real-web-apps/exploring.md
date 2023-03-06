@@ -2,35 +2,29 @@
 
 'Real' web applications are different from the applications you've worked with in this course. They follow the same principles, but they tend to be much larger, much longer-lived, and have much larger teams working on them. They also have users! All of those factors change the way the code tends to look.
 
+These large open-source projects illustrate the similarities and differences between the web apps you've worked with in this course and applications that have been around for a long time with lots of users.
+
+> Explore the applications below.
+
 ## Real Flask Apps
 
-[Companies use Flask](https://careerkarma.com/blog/companies-that-use-flask/) and [more](https://blog.back4app.com/startups-using-flask/)
+- [FlaskBB](https://github.com/flaskbb/flaskbb) is a forum-hosting application built using Flask
+- [Apache Airflow](https://github.com/apache/airflow/) is a workflow tool, for creating and monitoring automated tasks. The web interface is built in flask: [airflow/www](https://github.com/apache/airflow/tree/main/airflow/www)
 
-- https://github.com/flaskbb/flaskbb
-- https://github.com/apache/airflow/tree/main/airflow/www
+Real companies use Flask internally: [Companies that use Flask](https://careerkarma.com/blog/companies-that-use-flask/) and [more](https://blog.back4app.com/startups-using-flask/).
 
 ## Real Express Apps
 
-[Companies using Express](https://www.trio.dev/blog/companies-use-node-js)
+- [JSBin](https://github.com/jsbin/jsbin) is a code snippet hosting platform. It lets users create and share snippets of code.
+- [Strapi](https://github.com/strapi/strapi) is a browser tool for creating APIs. 
 
-- https://github.com/jsbin/jsbin
-- https://github.com/socketio/socket.io
+Real companies use Express too! See this list of [companies using Express](https://www.trio.dev/blog/companies-use-node-js).
 
 ## Other frameworks
 
-OTW/AO3 (Rails)
-- https://github.com/otwcode/otwarchive
+There are lots of web frameworks. If you are curious to explore real web applications in other languages or frameworks, you can take a look at:
 
-MediaWiki (PHP)
-- https://github.com/wikimedia/mediawiki
+- [Organization for Transformative Works](https://github.com/otwcode/otwarchive), which is a large, long-running application using Ruby on Rails.
+- [MediaWiki](https://github.com/wikimedia/mediawiki), which is a popular wiki hosting software build using PHP.
 
-## Pair instructions (Live class activity)
-
-- Find a partner, each take one application
-- Spend 5 minutes exploring the application on your own
-  - Take ten minutes to explain the application you investigated to your partner.
-- Walk through the answers to the questions on the form you filled out, and
-    show where in the code for the application you found the answers
-- Swap with your partner, and have them share their explanations with you
-- Together, note what answers you found in common between the applications, and
-    what answers were different
+If you find another large, long-lived open source application to add to this list, share it!
