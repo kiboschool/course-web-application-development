@@ -116,11 +116,13 @@
 - [Real Web Apps](lessons/real-web-apps.md)
   - [Dealing with Reality](lessons/real-web-apps/reality.md)
   - [MVC](lessons/real-web-apps/mvc.md)
-  - [Real Databases](lessons/real-web-apps/databases.md)
-  - [Testing](lessons/real-web-apps/testing.md)
   - [Exploring Real Web Apps](lessons/real-web-apps/exploring.md)
   - [Project: Case Study](lessons/real-web-apps/case-study.md)
-  - [Practice](lessons/real-web-apps/practice.md)
 <!--
+  - [Real Databases](lessons/real-web-apps/databases.md)
+  - [Testing](lessons/real-web-apps/testing.md)
+-->
+<!--
+  - [Practice](lessons/real-web-apps/practice.md)
   - [Bonus: AI Chatbot](lessons/auth/project.md)
 -->

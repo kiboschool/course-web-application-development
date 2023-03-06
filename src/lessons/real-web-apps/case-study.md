@@ -7,6 +7,7 @@ _Due Date: Mar 17_
 
 For your final assignment, you will investigate two real-world web applications, and answer questions about how they work. You'll get to see for yourself the similarities and differences between the applications you've worked with so far in this course and the codebases for living applications with thousands of users.
 
+<!--
 ## Instructions
 
 - Follow the links to read more about the applications
@@ -21,15 +22,4 @@ For your final assignment, you will investigate two real-world web applications,
 
 [Ghost on Github](https://github.com/TryGhost/Ghost)
 
-- number of files
-- number of lines of code
-- number of database models
-- number of commits
-- number of committers
-- age
-- language or languages it uses
-- number of packages it uses
-- steps to get it running locally
-- routes
-- APIs it uses
-- database it uses
+-->
