@@ -118,11 +118,10 @@
   - [MVC](lessons/real-web-apps/mvc.md)
   - [Exploring Real Web Apps](lessons/real-web-apps/exploring.md)
   - [Project: Case Study](lessons/real-web-apps/case-study.md)
+  - [Bonus: AI Chatbot](lessons/real-web-apps/bonus-chatbot.md)
 <!--
   - [Real Databases](lessons/real-web-apps/databases.md)
   - [Testing](lessons/real-web-apps/testing.md)
--->
-<!--
+  - [Further Exploration](lessons/real-web-apps/explore.md)
   - [Practice](lessons/real-web-apps/practice.md)
-  - [Bonus: AI Chatbot](lessons/auth/project.md)
 -->
