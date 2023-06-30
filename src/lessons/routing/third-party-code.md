@@ -90,9 +90,10 @@ JS:
 <script src="static/bootstrap.bundle.min.js"></script>
 ```
 
+<!--
 ## Bundling
 
 
 ## Check your understanding: Use Bootstrap
 
-
+-->
