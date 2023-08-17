@@ -24,12 +24,10 @@
   - [Practice](lessons/web-apps/practice.md)
   - [Assignment: Web App Tour](lessons/web-apps/project.md)
 
-### Week 2 - Routing and Templating
+### Week 2 - Templating
 
-- [Routing and Templating](lessons/routing-templating.md)
-  - [Routing Basics](lessons/routing/basics.md)
-  - [Route params](lessons/routing/params.md)
-  - [Templates](lessons/templates/basics.md)
+- [Templating](lessons/routing-templating.md)
+  - [What are templates?](lessons/templates/what-are-templates.md)
   - [Static files](lessons/routing/static.md)
   - [Practice](lessons/templates/practice.md)
   - [Project: Number Guessing Game](lessons/templates/project.md)
