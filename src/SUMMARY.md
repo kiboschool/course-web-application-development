@@ -15,8 +15,11 @@
 
 - [Web Applications](lessons/web-apps.md)
   - [What are web apps?](lessons/web-apps/what-are-web-apps.md)
+  - [Intro to Flask](lessons/web-apps/intro-to-flask.md)
+  - [Deploying apps](lessons/web-apps/deploying-apps.md)
   - [URLs](lessons/web-apps/urls.md)
-  - [HTTP](lessons/web-apps/http.md)
+  - [Routing in Flask](lessons/web-apps/routing-in-flask.md)
+  - [Query VS URL params](lessons/query-vs-url-params.md)
   - [Web app architecture](lessons/web-apps/web-app-architecture.md)
   - [Practice](lessons/web-apps/practice.md)
   - [Assignment: Web App Tour](lessons/web-apps/project.md)
