@@ -43,7 +43,7 @@
   - [Selecting and filtering](lessons/databases/selecting-and-filtering.md)
   - [Limit and Order](lessons/databases/limit-and-order.md)
   - [Database Management](lessons/databases/management.md)
-  - [ORMs](lessons/databases/orms.md)
+  - [Flask and SQL](lessons/flask-and-sql.md)
   - [Practice](lessons/databases/practice.md)
   - [Bonus: Migrations and Seeding](lessons/databases/migrations-and-seeding.md)
 
