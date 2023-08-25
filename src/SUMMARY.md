@@ -28,6 +28,7 @@
 
 - [Templating](lessons/routing-templating.md)
   - [What are templates?](lessons/templates/what-are-templates.md)
+  - [Shared templates](lessons/templates/shared-templates.md)
   - [Static files](lessons/routing/static.md)
   - [Practice](lessons/templates/practice.md)
   - [Project: Number Guessing Game](lessons/templates/project.md)
