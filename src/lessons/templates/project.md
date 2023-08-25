@@ -14,11 +14,9 @@ The game will work similarly to the Guess My Number game you have seen in past
 courses. There is a secret number, the user is prompted to guess, and the app
 tells them if the guess is too high, too low, or correct.
 
-[![Click to open the project](https://img.shields.io/static/v1?url=https://classroom.github.com/a/QESxhg-r&label=Open%20Project&message=Flask%20Guess%20my%20number&color=blue)](https://classroom.github.com/a/QESxhg-r)
+[![Click to open the project](https://img.shields.io/static/v1?url=https://classroom.github.com/a/lfvIFZmn&label=Open%20Project&message=Flask%20Guess%20my%20number&color=blue)](https://classroom.github.com/a/lfvIFZmn)
 
-[https://classroom.github.com/a/QESxhg-r](https://classroom.github.com/a/QESxhg-r)
-
-<!-- project template here: https://github.com/kibo-web-app-dev-jan-23/flask-guess-my-number -->
+[https://classroom.github.com/a/lfvIFZmn](https://classroom.github.com/a/lfvIFZmn)
 
 ## Submission
 

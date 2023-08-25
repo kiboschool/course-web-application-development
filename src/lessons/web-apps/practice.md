@@ -27,7 +27,7 @@ Your log will count for credit as long as it:
 - is accessible to your instructor
 - shows your own work
 
-### Exercise
+### Exercise 1
 
 **Objective**: Discover the underlying architecture of web applications through firsthand experience.
 
@@ -63,3 +63,9 @@ Your log will count for credit as long as it:
 
 8. **Discussion Time**:
    - Once everyone is done, you'll have an opportunity to share your findings and learn from others. This is a great chance to compare notes, identify common patterns, and ask questions about anything you're unsure about.
+
+
+### Exercise 2
+Create an deploy a Flask that shows a text: `Hello world` when you visit the `/` route.
+
+Use `render` deploy provider. Paste the link of your deployed app into your submision document.
