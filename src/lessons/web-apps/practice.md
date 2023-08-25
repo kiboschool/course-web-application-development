@@ -27,46 +27,39 @@ Your log will count for credit as long as it:
 - is accessible to your instructor
 - shows your own work
 
-## HTTP Status Codes
+### Exercise
 
-Take another look at the [MDN guide to HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status).
+**Objective**: Discover the underlying architecture of web applications through firsthand experience.
 
-First, make a list of the codes that you know already. These are probably the
-most common codes.
+**Steps**:
 
-Next, find a code that you aren't familiar with. Find more information on the 
-situations when that status code is used.
+1. **Pick Your App**: Select a web application you often use. It can be anything from Gmail, Facebook, to Dropbox, or any other platform you're fond of.
 
-Come up with a mental image you can use to remember the status code. You might
-try looking it up on [HTTP status cats](https://http.cat/) or
-[http.dog](https://http.dog/) for a particularly cute and memorable image.
+2. **Use and Observe**: 
+   - Spend about 10-15 minutes interacting with your chosen app. It could also be reflecting on your past experiences with it.
+   - Jot down all the different functionalities and features you notice (e.g., logging in, searching, retrieving data, submitting data).
 
-## Link shortener: Run the apps
+3. **Break It Down**: 
+   - For each feature you've noted, try to guess what's happening behind the scenes. What operations might be taking place on the server versus on your device (client-side)?
+   - For instance, when you search for a friend on Facebook, ponder over the mechanisms working in the background to fetch that information for you.
 
-For the project this week, you will explore different versions of a link 
-shortener application.
+4. **Data's Journey**:
+   - Think about the origins of the data for each function. Is it being pulled from a database? Sourced from elsewhere? Maybe it's cached?
+   - Sketch a basic flow diagram, showing how you believe data moves through the app, from the point of a user's request to its display on screen.
 
-As a way to practice, clone [the source code for the application](https://github.com/kiboschool/link-shortener)
-, and try to get a version of the application to run on your computer.
+5. **Experience Matters**: 
+   - Reflect on how the data is presented to you. Do you think there's any behind-the-scenes data tweaking to enhance the user experience?
+   - Identify features that seem to prioritize performance (e.g., content that loads progressively, potential data compression).
 
-Start with setting up and running the Flask version. Then, try the Express
-version. If you can run those, you can try the other implementations.
+6. **Outside Help**:
+   - Do you notice any elements that hint at third-party integrations? For instance, some apps let you sign in using Google or Facebook. How do you think this integrates into the app's architecture?
 
-If you get stuck setting up and running any of the versions, ask for support on
-Discord.
+7. **Show and Tell**:
+   - Compile your insights into a brief presentation format. Your showcase should include:
+     - A quick intro to your chosen web application.
+     - An outline of its main features.
+     - Your own architectural diagram, hypothesizing client-side, server-side, data movements, and possible third-party interactions.
+     - Observations about design choices focused on user experience and performance.
 
-## Link shortener: Draw the app
-
-Practice modeling web application architecture by drawing the link shortener
-application.
-
-Start by identifying the components of the application. Draw those components.
-
-Next, find some of the requests and responses that the components send to each
-other, and add them to your drawing.
-
-## Flask Tutorial
-
-In the first part of the course, you'll be using the Python web framework Flask.
-Complete the [Flask Tutorial](https://flask.palletsprojects.com/en/2.2.x/tutorial/) 
-to get a sense of the basics of the framework.
+8. **Discussion Time**:
+   - Once everyone is done, you'll have an opportunity to share your findings and learn from others. This is a great chance to compare notes, identify common patterns, and ask questions about anything you're unsure about.
