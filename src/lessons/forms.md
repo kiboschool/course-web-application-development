@@ -3,6 +3,8 @@
 Forms are among the most common modes of user interaction on the web. Any time
 you want someone to enter some data online, a form is the go-to tool.
 
+![form](https://img.freepik.com/free-vector/modern-online-registration-compositio_23-2147993866.jpg?w=826&t=st=1693492083~exp=1693492683~hmac=7f659bebd044db8441c510e1a490b7bb3c790e697c5b0a51d28a4b2e5c512ebf)
+
 Forms make your web applications interactive. Forms are part of a multi-request
 flow in your application. You'll see how different requests and responses work
 together to create the normal user experience of filling out a form.
