@@ -67,7 +67,18 @@
   - [Practice](lessons/forms/practice.md)
   - [Assignment: SQL Injection](lessons/forms/assignment.md)
 
-### Week 5 - Data Modeling
+### Week 5 - More web frameworks
+
+- [More web frameworks](lessons/more-web-frameworks.md)
+  - [Intro to express](lessons/more-web-frameworks/intro-to-express.md)
+  - [Express vs Flask](lessons/more-web-frameworks/express-vs-flask.md)
+  - [Deploying express apps](lessons/more-web-frameworks/deploying-express-apps.md)
+  - [Express templates](lessons/more-web-frameworks/express-templates.md)
+  - [Express forms](lessons/more-web-frameworks/express-forms.md)
+  - [Express and SQL](lessons/more-web-frameworks/express-and-sql.md)
+  - [Other web frameworks](lessons/more-web-frameworks/other-web-frameworks.md)
+
+### Week 6 - Data Modeling
 
 - [Data Modeling](lessons/data-modeling.md)
   - [Relations and Normalization](lessons/data-modeling/relations-and-normalization.md)

@@ -12,6 +12,7 @@ Check out this quick overview video covering the basics of HTML forms and input 
 
 > Note the use of the `<label>` tag to label the forms.
 
+#### Highlights
 ## Form elements
 
 The `<form>` tag defines a form.
