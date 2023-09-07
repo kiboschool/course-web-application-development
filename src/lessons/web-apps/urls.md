@@ -29,7 +29,7 @@ URLs are made of these parts:
 
 - Data Transfer: URLs facilitate the transfer of data between client and server. They can include query parameters that provide additional information to the server.
 
-SEO: Proper URL structure can improve search engine optimization (SEO). Descriptive URLs help search engines understand the content of the web page.
+- SEO: Proper URL structure can improve search engine optimization (SEO). Descriptive URLs help search engines understand the content of the web page.
 ## Check your understanding
 
 1. What are the parts of a URL?
