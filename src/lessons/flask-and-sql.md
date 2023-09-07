@@ -44,7 +44,7 @@ python db.py
 
 As you can see we are creating a table called users and populating it with 3 fields: id, username and email.
 
-This database is stored in a new filed called `app.db` that is also stored in your root folder. Don't touch this file
+This database is stored in a new filed called `app.db` that is also stored in your root folder. This file is the database! SQLite stores the data in a special format, so it won't mean anything if you open the file, and it may break if you edit it.
 
 3. Seeding the first data
 
