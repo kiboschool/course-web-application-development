@@ -34,7 +34,7 @@
   - [Project: Number Guessing Game](lessons/templates/project.md)
   - [Bonus: Third-party code](lessons/routing/third-party-code.md)
 
-### Week 2 - Databases
+### Week 3 - Databases
 
 - [Databases](lessons/databases.md) 
   - [Relational DBs](lessons/databases/relational-dbs.md)
@@ -46,19 +46,6 @@
   - [Flask and SQL](lessons/flask-and-sql.md)
   - [Practice](lessons/databases/practice.md)
   - [Bonus: Migrations and Seeding](lessons/databases/migrations-and-seeding.md)
-
-### Week 3 - Data Modeling
-
-- [Data Modeling](lessons/data-modeling.md)
-  - [Relations and Normalization](lessons/data-modeling/relations-and-normalization.md)
-  - [Foreign Keys and JOINS](lessons/data-modeling/fk-join.md)
-  - [Entity-Relationship Diagrams](lessons/data-modeling/erds.md)
-  - [Many-to-many relationships](lessons/data-modeling/many-to-many.md)
-  - [Database constraints](lessons/data-modeling/database-constraints.md)
-  - [Practice](lessons/data-modeling/practice.md)
-  - [Bonus: N+1 queries](lessons/data-modeling/n-plus-one.md)
-  - [Bonus: Database performance](lessons/data-modeling/explain-indexes-tuning.md)
-
 ### Week 4 - Forms
 
 - [Forms](lessons/forms.md)
