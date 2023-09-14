@@ -9,69 +9,30 @@ and functionality to the client.
 On the web, the client and server communicate with each other using the HTTP 
 protocol, which defines how requests and responses are formatted and handled.
 
-But! Things aren't quite so simple.
 
-The term _architecture_ refers to both the _components_ of an application, like 
-a server and database, as well as how the _code_ is organized for a server.
+> This video explains in detail this client-server architecture.
 
-The most common components of a web application architecture are the client, 
-server, and database.
+<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.youtube.com/embed/L5BlpPU_muY" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-Within the server, application code often has a layered architecture, with a data 
-layer that manages access to the application's data and databases, a 
-presentation layer that handles the user interface and user experience, and a 
-business layer that implements the application's core functionality. A common 
-pattern for this separation in the server code is called **MVC**: Model, View, 
-Controller.
 
-## What is web app architecture?
+>  ### Key Ideas
+> - The web is a service built on top of the Internet, enabling computers to share and exchange data such as images, videos, documents, etc. This communication system is often referred to as the client-server model.
+> - A client in this model can be a machine or a program. Client machines are the devices that end-users use to access the web, including laptops, desktops, smartphones, and tablets. A client program, on the other hand, is a program that allows users to make requests through the web, such as web browsers or software applications that access online resources.
+> - A server, in contrast to a client, is specifically a computer program. Servers are often defined as high-performance computers, but they are termed so because they run server programs that serve requests from clients and because they operate on server operating systems. Servers are designed to run 24/7 and often require powerful hardware to handle multiple client requests simultaneously.
+> - In the client-server model, servers can serve multiple clients at the same time. A single server can host web resources, web applications, user and program data, and much more. It listens for requests from clients and responds with a message when a request is received.
+> - This communication between clients and servers happens through a request-response cycle, often using HTTP messages.
+> - Besides the client-server model, another way for computers to communicate on the web is through a decentralized architecture called the peer-to-peer model. In this model, there is no distinct client or server; both computers can be requesters and response providers.
 
-> This video explains the basics of web app architecture, and some of the
-> different kinds of architecture that different applications might use.
-
-<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.youtube.com/embed/sDlCSIDwpDs?start=152" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-### Conceptual components vs. Physical components
-
-Drawings of web app architecture often show boxes for many different computers. 
-The client, the server (or several servers), and the database each appear as a
-separate machine.
-
-But, when we're building web apps, we usually just have one computer where we
-write code. How do we deal with this?
-
-Instead of having multiple _physical_ computers, we have multiple _conceptual_ 
-computers.
-
-In this class, you'll run the server, database, and client all on your laptop. 
-Each component will communicate with the others as if they were separate -- but 
-they'll just be on your computer.
-
-> ### How does one computer act like multiple computers?
-> **Ports**. Each component of your local application will use a different 
-> _port_ on your computer. For instance, the server might use port 8000, the 
-> database might use port 5432, and the browser might use port 50025.
-> 
-> When you have multiple tabs open in your browser, it may use multiple ports to
-> communicate with different websites. Read more on [this post on superuser](https://superuser.com/questions/1055281/do-web-browsers-use-different-outgoing-ports-for-different-tabs).
-
-## Local Development
-
-Running multiple components on your computer is called _local_ development. As
-the architectures you design get more complicated, you'll learn how to configure
-your local _environment_ so that you can run the components you need.
-
-When you deploy web applications, you'll run the server and database on 
-different computers, and make your application available at a public URL so that 
-client web browsers on laptops and phones can communicate with the server.
+![client-server](../../images/p2p-vs-client-server.png)
 
 ## Check your understanding
 
-Try answering these questions. You may need to search online for the answers.
-
-1. What port is typically used for local development with Flask? What about
-   Express? Postgres?
-2. Why might developers split an application into multiple pieces?
-3. Imagine an application that's been split into multiple services that each run
-   on separate machines. How do you think they would communicate with each
-   other?
+1. In the client-server architecture, what is the client?
+2. What is the role of the server in the client-server architecture?
+3. What protocol do the client and server use to communicate with each other?
+4. Can a client be both a machine and a program? Give examples of each.
+5. How are servers different from clients in the client-server model?
+6. How does a server respond to client requests?
+7. What is the role of HTTP messages in the communication between clients and servers?
+8. What is the alternative to the client-server model for computers to communicate on the web?
+9. In the peer-to-peer model, how are the computers different from those in the client-server model?
