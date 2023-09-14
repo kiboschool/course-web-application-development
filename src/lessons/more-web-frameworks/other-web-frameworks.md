@@ -1,6 +1,6 @@
 # Other web Frameworks
 
-The world of web development is vast, and the tools available to developers are continually evolving. While Flask and Express.js are popular and widely-used frameworks in Python and JavaScript respectively, there are numerous other options that solve different needs and preferences.
+The world of web development is vast, and the tools available to developers are continually evolving. While Flask and Express.js are popular and widely-used frameworks in Python and JavaScript, respectively, there are numerous other options that meet different needs and preferences.
 
 ## Python Web Frameworks
 
