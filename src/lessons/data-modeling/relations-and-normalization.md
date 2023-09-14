@@ -1,20 +1,10 @@
-# Relations and Normalization
+#  Tables Normalization
 
-So far, our data has been simple. In the link shortener application, for instance, we had just one table. The full power of SQL shows when there are many related tables.
+While design your database, sometimes we need some guidance or best practices to ensure an optimal database design, table normalization is one of them.
 
-Picture the schema for a microblogging application like Twitter. What data does it store?
+Table normalization is a systematic approach used in designing relational database tables to minimize data redundancy and ensure data integrity. It involves organizing the columns (attributes) and tables (relations) of a database to ensure that their dependencies are maintained properly.
 
-- Users
-- Posts
-- Likes
-- Comments
-- Follows
-- Direct Messages
-- ...probably many others!
-
-Now that you've seen the basics of databases and forms, you are ready for more complicated data models, and schemas with many tables. Before learning how to design schemas _correctly_, let's see some of the errors and inconsistencies that can happen with bad schema design.
-
-## Video: Learn Database Normalization
+## Video: Learn the process of table normalization
 
 This video walks through all of the different kinds of data consistency errors and the normal forms that can make those inconsistencies impossible.
 
@@ -59,9 +49,9 @@ This schema can lead to all kinds of problems!
 
 * **Data redundancy**: Data redundancy when the same data is stored in multiple places, leading to data storage inefficiencies and an increased risk of inconsistencies. Since the same customer information is repeated in multiple rows for different orders, it takes up more space in the database (and can lead to the issues noted above). 
 
-## Normalization
+## Why do we need table normalization?
 
-Database Normalization prevents the anomalies above. In short, it requires that you create different tables for the different "things" in your system.
+Table Normalization prevents the anomalies above. In short, it requires that you create different tables for the different "things" in your system.
 
 To normalize the orders, customers, and products from the example and prevent inconsistencies, you would need to separate the data into separate tables and establish relationships between them.
 

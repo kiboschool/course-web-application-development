@@ -75,11 +75,20 @@
 
 ### Week 6 - Data Modeling
 
-- [Deployment](lessons/deployment.md)
-  - [Cloud Hosts](lessons/deployment/hosts.md)
-  - [Deploy a Project](lessons/deployment/project.md)
-  - [Domains and DNS](lessons/deployment/dns.md)
-  - [Domain names](lessons/deployment/domains.md)
+- [Data Modeling](lessons/data-modeling.md)
+  - [Table relations](lessons/data-modeling/table-relations.md)
+  - [Foreign Keys](lessons/data-modeling/fk-join.md)
+  - [One-to-one relationships](lessons/data-modeling/one-to-one.md)
+  - [One-to-many relationships](lessons/data-modeling/one-to-many.md)
+  - [Many-to-many relationships](lessons/data-modeling/many-to-many.md)
+  - [Entity-Relationship Diagrams](lessons/data-modeling/erds.md)
+  - [Joins](lessons/data-modeling/joins.md)
+  - [Practice](lessons/data-modeling/practice.md)
+  - [Bonus: Tables normalization](lessons/data-modeling/relations-and-normalization.md)
+  - [Bonus: Database constraints](lessons/data-modeling/database-constraints.md)
+  - [Bonus: N+1 queries](lessons/data-modeling/n-plus-one.md)
+  - [Bonus: Database performance](lessons/data-modeling/explain-indexes-tuning.md)
+
 
 ### Week 6 - APIs
 
