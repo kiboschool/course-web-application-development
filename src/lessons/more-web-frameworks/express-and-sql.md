@@ -1,6 +1,6 @@
 # Express and SQL
 
-As we covered before, it's often necessary to store and retrieve data, and this is where databases come into play. SQLite, known for its lightweight and serverless nature, is a popular choice for various applications.
+As we covered before, it's often necessary to store and retrieve data, and databases are often an ideal solution (though not always). SQLite is a lightweight, self-contained database, and it is a popular choice for all kinds of applications.
 
 We'll guide you through integrating SQLite with an Express application.
 
