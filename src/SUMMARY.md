@@ -81,6 +81,14 @@
   - [Domains and DNS](lessons/deployment/dns.md)
   - [Domain names](lessons/deployment/domains.md)
 
+### Week 7 - ORMs
+
+- [ORMs](lessons/orms.md)
+  - [What is an ORM?](lessons/orms/what-is-an-orm.md)
+  - [Prisma as ORM](lessons/orms/prisma-as-orm.md)
+  - [Crud Operations with Prisma](lessons/orms/crud-operations-with-prisma.md)
+  - [Assignment: Book Review System](lessons/orms/assignment.md)
+  - [Bonus: More ORMs](lessons/orms/more-orms.md)
 ### Week 6 - APIs
 
 - [APIs](lessons/apis.md)
