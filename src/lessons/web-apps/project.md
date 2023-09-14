@@ -21,3 +21,17 @@ How do you read code? Check out this [section from C4S](https://c4s.vercel.app/c
 To get credit for the assignment:
 
 > [**Complete the questions on Gradescope**](https://www.gradescope.com/courses/480017/assignments/2536659/)
+
+### Note: Many Languages
+
+> _Polyglot_ means 'many tongues'. 
+>
+> This project, and this whole course, will use multiple languages - primarily 
+> Python and JavaScript, but also others.
+>
+> Different languages and frameworks may have different syntax, but they can
+> be used to create the same features.
+> 
+> By comparing different languages and frameworks, you will learn the core
+> components of _any_ web application. That way, even if you encounter an
+> unfamiliar framework or language, you'll still know what to look for.

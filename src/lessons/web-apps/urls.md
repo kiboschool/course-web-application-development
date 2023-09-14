@@ -21,15 +21,6 @@ URLs are made of these parts:
 
 <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.youtube.com/embed/qv5XK91OhFo" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-### Why is URL Structure Important?
-
-- Resource Identification: URLs uniquely identify and locate web resources. Each URL corresponds to a specific resource on the web.
-
-- Navigation: URLs enable users to navigate the web. Users can enter URLs into their web browsers to access web resources.
-
-- Data Transfer: URLs facilitate the transfer of data between client and server. They can include query parameters that provide additional information to the server.
-
-- SEO: Proper URL structure can improve search engine optimization (SEO). Descriptive URLs help search engines understand the content of the web page.
 ## Check your understanding
 
 1. What are the parts of a URL?

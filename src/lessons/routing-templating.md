@@ -1,13 +1,22 @@
 # Routing and Templating
 
-Welcome to next week's exciting journey into the world of web development! As we dive deeper into web applications, it's essential to understand how we present content to our users. This brings us to the concept of **templating**.
+This week, you'll learn the basics of creating a web app: routing and
+templating.
 
-**2. Templating:** 
-At the heart of every dynamic web application lies a robust templating system. This system ensures that the content we serve is not only dynamic but also organized and efficient.
+Watch an introductory video of what to expect this week.
 
-**2.1. What are templates?** 
-We'll start by demystifying what templates are and how they act as the presentation backbone of our web apps.
+>Video: Week 2 - Introduction</summary>
 
-**2.2. Static files:** 
-While dynamic content is crucial, static assets like CSS, JavaScript, and images play a pivotal role in improving user experience. We'll deep into how and where to store these files, and how they integrate with our templates.
-    
+<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe width="716" height="403" src="https://www.youtube.com/embed/t1PY_8O5iLk" title="WD-JAN-23 - Week 2 Introduction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> </div>
+
+
+
+**Routing** is how you set your app up to respond to different HTTP requests
+based on the _path_ and the _HTTP verb_. Different requests need different
+responses!
+
+**Templates** are a way to render custom HTML based on some code. They let you
+use variables in HTML before it's sent to the user, so that you can show
+different content, depending on the user or the state of the application. 
+
+With these two concepts, you'll be able to start building real web applications.
