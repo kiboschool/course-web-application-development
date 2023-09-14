@@ -17,7 +17,7 @@ However, Flask is just the tip of the iceberg. There are numerous other web fram
 
 #### Beyond Flask: Exploring Express.js
 
-As we transition from Flask, we'll be delving into **Express.js** - a web application framework for Javascript (node.js backend). Express.js is known for its fast performance, flexibility, and minimalistic structure.
+As we transition from Flask, we'll be delving into **Express.js** - a web application framework for JavaScript (node.js backend). Express.js is known for its fast performance, flexibility, and minimalistic structure.
 
 Express.js is particularly popular in the realm of JavaScript-based web applications, especially when building APIs for single-page applications or mobile backends.
 
