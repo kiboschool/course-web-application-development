@@ -34,7 +34,7 @@
   - [Project: Number Guessing Game](lessons/templates/project.md)
   - [Bonus: Third-party code](lessons/routing/third-party-code.md)
 
-### Week 2 - Databases
+### Week 3 - Databases
 
 - [Databases](lessons/databases.md) 
   - [Relational DBs](lessons/databases/relational-dbs.md)
@@ -46,19 +46,6 @@
   - [Flask and SQL](lessons/flask-and-sql.md)
   - [Practice](lessons/databases/practice.md)
   - [Bonus: Migrations and Seeding](lessons/databases/migrations-and-seeding.md)
-
-### Week 3 - Data Modeling
-
-- [Data Modeling](lessons/data-modeling.md)
-  - [Relations and Normalization](lessons/data-modeling/relations-and-normalization.md)
-  - [Foreign Keys and JOINS](lessons/data-modeling/fk-join.md)
-  - [Entity-Relationship Diagrams](lessons/data-modeling/erds.md)
-  - [Many-to-many relationships](lessons/data-modeling/many-to-many.md)
-  - [Database constraints](lessons/data-modeling/database-constraints.md)
-  - [Practice](lessons/data-modeling/practice.md)
-  - [Bonus: N+1 queries](lessons/data-modeling/n-plus-one.md)
-  - [Bonus: Database performance](lessons/data-modeling/explain-indexes-tuning.md)
-
 ### Week 4 - Forms
 
 - [Forms](lessons/forms.md)
@@ -68,14 +55,25 @@
   - [Parsing and Validation](lessons/forms/parsing-and-validation.md)
   - [Client-side Validation](lessons/forms/client-side-validation.md)
   - [Server-side Validation](lessons/forms/server-side-validation.md)
-  - [Database constraints](lessons/forms/database-constraints.md)
-  - [SQL Injection](lessons/forms/sql-injection.md)
   - [Styling Forms](lessons/forms/styling-forms.md)
-  - [Accessibility](lessons/forms/accessibility.md)
-  - [Practice](lessons/forms/practice.md)
-  - [Assignment: SQL Injection](lessons/forms/assignment.md)
+  - [Assignment: Guestbook](lessons/forms/assignment.md)
+  - [BONUS: Accessibility](lessons/forms/accessibility.md)
+  - [BONUS: SQL Injection](lessons/forms/sql-injection.md)
+  - [BONUS: Database constraints](lessons/forms/database-constraints.md)
 
-### Week 5 - Deployment
+### Week 5 - More web frameworks
+
+- [More web frameworks](lessons/more-web-frameworks.md)
+  - [Intro to express](lessons/more-web-frameworks/intro-to-express.md)
+  - [Express vs Flask](lessons/more-web-frameworks/express-vs-flask.md)
+  - [Deploying express apps](lessons/more-web-frameworks/deploying-express-apps.md)
+  - [Express templates](lessons/more-web-frameworks/express-templates.md)
+  - [Express forms](lessons/more-web-frameworks/express-forms.md)
+  - [Express and SQL](lessons/more-web-frameworks/express-and-sql.md)
+  - [Other web frameworks](lessons/more-web-frameworks/other-web-frameworks.md)
+  - [Assignment: Guestbook in express](lessons/more-web-frameworks/assignment.md)
+
+### Week 6 - Data Modeling
 
 - [Deployment](lessons/deployment.md)
   - [Cloud Hosts](lessons/deployment/hosts.md)
