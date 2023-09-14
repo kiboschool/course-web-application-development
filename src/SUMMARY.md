@@ -15,16 +15,20 @@
 
 - [Web Applications](lessons/web-apps.md)
   - [What are web apps?](lessons/web-apps/what-are-web-apps.md)
+  - [Intro to Flask](lessons/web-apps/intro-to-flask.md)
+  - [Deploying apps](lessons/web-apps/deploying-apps.md)
   - [URLs](lessons/web-apps/urls.md)
-  - [HTTP](lessons/web-apps/http.md)
+  - [Routing in Flask](lessons/web-apps/routing-in-flask.md)
+  - [Query VS URL params](lessons/query-vs-url-params.md)
   - [Web app architecture](lessons/web-apps/web-app-architecture.md)
   - [Practice](lessons/web-apps/practice.md)
   - [Assignment: Web App Tour](lessons/web-apps/project.md)
 
-- [Routing and Templating](lessons/routing-templating.md)
-  - [Routing Basics](lessons/routing/basics.md)
-  - [Route params](lessons/routing/params.md)
-  - [Templates](lessons/templates/basics.md)
+### Week 2 - Templating
+
+- [Templating](lessons/routing-templating.md)
+  - [What are templates?](lessons/templates/what-are-templates.md)
+  - [Shared templates](lessons/templates/shared-templates.md)
   - [Static files](lessons/routing/static.md)
   - [Practice](lessons/templates/practice.md)
   - [Project: Number Guessing Game](lessons/templates/project.md)
@@ -39,7 +43,7 @@
   - [Selecting and filtering](lessons/databases/selecting-and-filtering.md)
   - [Limit and Order](lessons/databases/limit-and-order.md)
   - [Database Management](lessons/databases/management.md)
-  - [ORMs](lessons/databases/orms.md)
+  - [Flask and SQL](lessons/flask-and-sql.md)
   - [Practice](lessons/databases/practice.md)
   - [Bonus: Migrations and Seeding](lessons/databases/migrations-and-seeding.md)
 
