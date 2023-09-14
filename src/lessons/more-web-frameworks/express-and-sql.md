@@ -92,7 +92,7 @@ process.on('exit', () => {
 });
 ```
 
-As you can see the app is doing:
+As you can see, the app is doing:
 
 1. **Initialization**:
     - Necessary modules (`express`, and `sqlite3`) are imported.
