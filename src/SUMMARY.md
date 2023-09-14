@@ -11,30 +11,28 @@
 
 ## Lessons
 
-### Week 1 - Web Applications, Routing, Templating
+### Week 1 - Web Applications
 
 - [Web Applications](lessons/web-apps.md)
   - [What are web apps?](lessons/web-apps/what-are-web-apps.md)
-  - [Intro to Flask](lessons/web-apps/intro-to-flask.md)
-  - [Deploying apps](lessons/web-apps/deploying-apps.md)
   - [URLs](lessons/web-apps/urls.md)
-  - [Routing in Flask](lessons/web-apps/routing-in-flask.md)
-  - [Query VS URL params](lessons/query-vs-url-params.md)
+  - [HTTP](lessons/web-apps/http.md)
   - [Web app architecture](lessons/web-apps/web-app-architecture.md)
   - [Practice](lessons/web-apps/practice.md)
   - [Assignment: Web App Tour](lessons/web-apps/project.md)
 
-### Week 2 - Templating
+### Week 2 - Routing and Templating
 
-- [Templating](lessons/routing-templating.md)
-  - [What are templates?](lessons/templates/what-are-templates.md)
-  - [Shared templates](lessons/templates/shared-templates.md)
+- [Routing and Templating](lessons/routing-templating.md)
+  - [Routing Basics](lessons/routing/basics.md)
+  - [Route params](lessons/routing/params.md)
+  - [Templates](lessons/templates/basics.md)
   - [Static files](lessons/routing/static.md)
   - [Practice](lessons/templates/practice.md)
   - [Project: Number Guessing Game](lessons/templates/project.md)
   - [Bonus: Third-party code](lessons/routing/third-party-code.md)
 
-### Week 2 - Databases
+### Week 3 - Databases
 
 - [Databases](lessons/databases.md) 
   - [Relational DBs](lessons/databases/relational-dbs.md)
@@ -43,21 +41,12 @@
   - [Selecting and filtering](lessons/databases/selecting-and-filtering.md)
   - [Limit and Order](lessons/databases/limit-and-order.md)
   - [Database Management](lessons/databases/management.md)
-  - [Flask and SQL](lessons/flask-and-sql.md)
   - [Practice](lessons/databases/practice.md)
   - [Bonus: Migrations and Seeding](lessons/databases/migrations-and-seeding.md)
-
-### Week 3 - Data Modeling
-
-- [Data Modeling](lessons/data-modeling.md)
-  - [Relations and Normalization](lessons/data-modeling/relations-and-normalization.md)
-  - [Foreign Keys and JOINS](lessons/data-modeling/fk-join.md)
-  - [Entity-Relationship Diagrams](lessons/data-modeling/erds.md)
-  - [Many-to-many relationships](lessons/data-modeling/many-to-many.md)
-  - [Database constraints](lessons/data-modeling/database-constraints.md)
-  - [Practice](lessons/data-modeling/practice.md)
-  - [Bonus: N+1 queries](lessons/data-modeling/n-plus-one.md)
-  - [Bonus: Database performance](lessons/data-modeling/explain-indexes-tuning.md)
+<!--
+  - [Persistence](lessons/databases/persistence.md)
+  - [Bonus: Other DBs](lessons/databases/other-databases.md)
+      -->
 
 ### Week 4 - Forms
 
@@ -75,13 +64,17 @@
   - [Practice](lessons/forms/practice.md)
   - [Assignment: SQL Injection](lessons/forms/assignment.md)
 
-### Week 5 - Deployment
+### Week 5 - Data Modeling
 
-- [Deployment](lessons/deployment.md)
-  - [Cloud Hosts](lessons/deployment/hosts.md)
-  - [Deploy a Project](lessons/deployment/project.md)
-  - [Domains and DNS](lessons/deployment/dns.md)
-  - [Domain names](lessons/deployment/domains.md)
+- [Data Modeling](lessons/data-modeling.md)
+  - [Relations and Normalization](lessons/data-modeling/relations-and-normalization.md)
+  - [Foreign Keys and JOINS](lessons/data-modeling/fk-join.md)
+  - [Entity-Relationship Diagrams](lessons/data-modeling/erds.md)
+  - [Many-to-many relationships](lessons/data-modeling/many-to-many.md)
+  - [Database constraints](lessons/data-modeling/database-constraints.md)
+  - [Practice](lessons/data-modeling/practice.md)
+  - [Bonus: N+1 queries](lessons/data-modeling/n-plus-one.md)
+  - [Bonus: Database performance](lessons/data-modeling/explain-indexes-tuning.md)
 
 ### Week 6 - APIs
 
@@ -106,30 +99,29 @@
   - [Authorization](lessons/auth/authorization.md)
   - [Practice](lessons/auth/practice.md)
   - [Bonus: Cryptography](lessons/auth/cryptography.md)
-  - [Bonus: OAuth](lessons/auth/oauth.md)
-
-### Week 8 - Advanced Features and Patterns
-
 <!--
-- Advanced templating
-- Libraries
-- Caching
-- Role-based Auth 
-- Architecture
-- [MVC](lessons/real-web-apps/mvc.md)
-- [Testing](lessons/real-web-apps/testing.md)
-- [Bonus: AI Chatbot](lessons/real-web-apps/bonus-chatbot.md)
+  - [Bonus: OAuth](lessons/auth/oauth.md)
 -->
+
+### Week 8 - Deployment
+
+- [Deployment](lessons/deployment.md)
+  - [Cloud Hosts](lessons/deployment/hosts.md)
+  - [Deploy a Project](lessons/deployment/project.md)
+  - [Domains and DNS](lessons/deployment/dns.md)
+  - [Domain names](lessons/deployment/domains.md)
 
 ### Weeks 9/10 - Real Web Apps
 
 - [Real Web Apps](lessons/real-web-apps.md)
   - [Dealing with Reality](lessons/real-web-apps/reality.md)
+  - [MVC](lessons/real-web-apps/mvc.md)
   - [Exploring Real Web Apps](lessons/real-web-apps/exploring.md)
   - [Project: Case Study](lessons/real-web-apps/case-study.md)
+  - [Bonus: AI Chatbot](lessons/real-web-apps/bonus-chatbot.md)
 <!--
-  - [Further Exploration](lessons/real-web-apps/explore.md)
-  - [Debugging](lessons/real-web-apps/debugging.md)
   - [Real Databases](lessons/real-web-apps/databases.md)
+  - [Testing](lessons/real-web-apps/testing.md)
+  - [Further Exploration](lessons/real-web-apps/explore.md)
   - [Practice](lessons/real-web-apps/practice.md)
 -->
