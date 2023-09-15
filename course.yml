@@ -49,8 +49,9 @@ units:
       - name: 'Assignment: Web App Tour'
         path: src/lessons/web-apps/project.md
         workload: 60
-        type: lesson
-        kind: general
+        type: assignment
+        kind: assignment
+        grade_weight: 100
   - name: Templating
     activities:
       - name: Introduction
@@ -78,8 +79,9 @@ units:
       - name: 'Project: Number Guessing Game'
         path: src/lessons/templates/project.md
         workload: 60
-        type: lesson
-        kind: general
+        type: assignment
+        kind: assignment
+        grade_weight: 0
       - name: 'Bonus: Third-party code'
         path: src/lessons/routing/third-party-code.md
         workload: 60
@@ -176,8 +178,9 @@ units:
       - name: 'Assignment: Guestbook'
         path: src/lessons/forms/assignment.md
         workload: 60
-        type: lesson
-        kind: general
+        type: assignment
+        kind: assignment
+        grade_weight: 0
       - name: 'BONUS: Accessibility'
         path: src/lessons/forms/accessibility.md
         workload: 60
@@ -235,8 +238,9 @@ units:
       - name: 'Assignment: Guestbook in express'
         path: src/lessons/more-web-frameworks/assignment.md
         workload: 60
-        type: lesson
-        kind: general
+        type: assignment
+        kind: assignment
+        grade_weight: 0
   - name: Deployment
     activities:
       - name: Introduction
@@ -303,8 +307,9 @@ units:
       - name: 'Project: Product Info'
         path: src/lessons/apis/project.md
         workload: 60
-        type: lesson
-        kind: general
+        type: assignment
+        kind: assignment
+        grade_weight: 0
   - name: Auth
     activities:
       - name: Introduction
@@ -356,19 +361,19 @@ units:
         kind: general
   - name: MVC
     activities:
-      - name: Introduction
+      - name: Intro to MVC
         path: src/lessons/real-web-apps/mvc.md
   - name: Testing
     activities:
-      - name: Introduction
+      - name: Intro to Testiung
         path: src/lessons/real-web-apps/testing.md
   - name: 'Bonus: AI Chatbot'
     activities:
-      - name: Introduction
+      - name: Intro Bonus
         path: src/lessons/real-web-apps/bonus-chatbot.md
   - name: Real Web Apps
     activities:
-      - name: Introduction
+      - name: Introduction to Real Web Apps
         path: src/lessons/real-web-apps.md
       - name: Dealing with Reality
         path: src/lessons/real-web-apps/reality.md
@@ -383,8 +388,9 @@ units:
       - name: 'Project: Case Study'
         path: src/lessons/real-web-apps/case-study.md
         workload: 60
-        type: lesson
-        kind: general
+        type: assignment
+        kind: assignment
+        grade_weight: 0
       - name: Further Exploration
         path: src/lessons/real-web-apps/explore.md
         workload: 60
