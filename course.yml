@@ -396,11 +396,6 @@ units:
         workload: 60
         type: lesson
         kind: general
-      - name: Debugging
-        path: src/lessons/real-web-apps/debugging.md
-        workload: 60
-        type: lesson
-        kind: general
       - name: Real Databases
         path: src/lessons/real-web-apps/databases.md
         workload: 60
