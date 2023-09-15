@@ -1,0 +1,408 @@
+name: Web Application Development
+code: CSF005
+term: Oct-2023
+units:
+  - name: Web Applications
+    activities:
+      - name: Introduction
+        path: src/lessons/web-apps.md
+      - name: What are web apps?
+        path: src/lessons/web-apps/what-are-web-apps.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Intro to Flask
+        path: src/lessons/web-apps/intro-to-flask.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Deploying apps
+        path: src/lessons/web-apps/deploying-apps.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: URLs
+        path: src/lessons/web-apps/urls.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Routing in Flask
+        path: src/lessons/web-apps/routing-in-flask.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Query VS URL params
+        path: src/lessons/query-vs-url-params.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Web app architecture
+        path: src/lessons/web-apps/web-app-architecture.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Practice
+        path: src/lessons/web-apps/practice.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: 'Assignment: Web App Tour'
+        path: src/lessons/web-apps/project.md
+        workload: 60
+        type: lesson
+        kind: general
+  - name: Templating
+    activities:
+      - name: Introduction
+        path: src/lessons/routing-templating.md
+      - name: What are templates?
+        path: src/lessons/templates/what-are-templates.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Shared templates
+        path: src/lessons/templates/shared-templates.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Static files
+        path: src/lessons/routing/static.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Practice
+        path: src/lessons/templates/practice.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: 'Project: Number Guessing Game'
+        path: src/lessons/templates/project.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: 'Bonus: Third-party code'
+        path: src/lessons/routing/third-party-code.md
+        workload: 60
+        type: lesson
+        kind: general
+  - name: Databases
+    activities:
+      - name: Introduction
+        path: src/lessons/databases.md
+      - name: Relational DBs
+        path: src/lessons/databases/relational-dbs.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Setting up a SQLite database
+        path: src/lessons/databases/setting-up-sqlite.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Querying
+        path: src/lessons/databases/querying.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Selecting and filtering
+        path: src/lessons/databases/selecting-and-filtering.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Limit and Order
+        path: src/lessons/databases/limit-and-order.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Database Management
+        path: src/lessons/databases/management.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Flask and SQL
+        path: src/lessons/flask-and-sql.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Practice
+        path: src/lessons/databases/practice.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: 'Bonus: Migrations and Seeding'
+        path: src/lessons/databases/migrations-and-seeding.md
+        workload: 60
+        type: lesson
+        kind: general
+  - name: Forms
+    activities:
+      - name: Introduction
+        path: src/lessons/forms.md
+      - name: HTML Forms
+        path: src/lessons/forms/html-forms.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Form Data
+        path: src/lessons/forms/form-data.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: INSERT, UPDATE, and DELETE
+        path: src/lessons/forms/insert-update.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Parsing and Validation
+        path: src/lessons/forms/parsing-and-validation.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Client-side Validation
+        path: src/lessons/forms/client-side-validation.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Server-side Validation
+        path: src/lessons/forms/server-side-validation.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Styling Forms
+        path: src/lessons/forms/styling-forms.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: 'Assignment: Guestbook'
+        path: src/lessons/forms/assignment.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: 'BONUS: Accessibility'
+        path: src/lessons/forms/accessibility.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: 'BONUS: SQL Injection'
+        path: src/lessons/forms/sql-injection.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: 'BONUS: Database constraints'
+        path: src/lessons/forms/database-constraints.md
+        workload: 60
+        type: lesson
+        kind: general
+  - name: More web frameworks
+    activities:
+      - name: Introduction
+        path: src/lessons/more-web-frameworks.md
+      - name: Intro to express
+        path: src/lessons/more-web-frameworks/intro-to-express.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Express vs Flask
+        path: src/lessons/more-web-frameworks/express-vs-flask.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Deploying express apps
+        path: src/lessons/more-web-frameworks/deploying-express-apps.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Express templates
+        path: src/lessons/more-web-frameworks/express-templates.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Express forms
+        path: src/lessons/more-web-frameworks/express-forms.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Express and SQL
+        path: src/lessons/more-web-frameworks/express-and-sql.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Other web frameworks
+        path: src/lessons/more-web-frameworks/other-web-frameworks.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: 'Assignment: Guestbook in express'
+        path: src/lessons/more-web-frameworks/assignment.md
+        workload: 60
+        type: lesson
+        kind: general
+  - name: Deployment
+    activities:
+      - name: Introduction
+        path: src/lessons/deployment.md
+      - name: Cloud Hosts
+        path: src/lessons/deployment/hosts.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Deploy a Project
+        path: src/lessons/deployment/project.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Domains and DNS
+        path: src/lessons/deployment/dns.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Domain names
+        path: src/lessons/deployment/domains.md
+        workload: 60
+        type: lesson
+        kind: general
+  - name: APIs
+    activities:
+      - name: Introduction
+        path: src/lessons/apis.md
+      - name: API Basics
+        path: src/lessons/apis/basics.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Creating APIs
+        path: src/lessons/apis/creating-apis.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: REST and CRUD
+        path: src/lessons/apis/rest-and-crud.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: External services
+        path: src/lessons/apis/services.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Documentation
+        path: src/lessons/apis/documentation.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: API Authentication
+        path: src/lessons/apis/authentication.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Practice
+        path: src/lessons/apis/practice.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: 'Project: Product Info'
+        path: src/lessons/apis/project.md
+        workload: 60
+        type: lesson
+        kind: general
+  - name: Auth
+    activities:
+      - name: Introduction
+        path: src/lessons/auth.md
+      - name: Authentication
+        path: src/lessons/auth/authentication.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Auth flows
+        path: src/lessons/auth/flow.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Passwords
+        path: src/lessons/auth/passwords.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Emails
+        path: src/lessons/auth/email.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Cookies and Sessions
+        path: src/lessons/auth/cookies.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Authorization
+        path: src/lessons/auth/authorization.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Practice
+        path: src/lessons/auth/practice.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: 'Bonus: Cryptography'
+        path: src/lessons/auth/cryptography.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: 'Bonus: OAuth'
+        path: src/lessons/auth/oauth.md
+        workload: 60
+        type: lesson
+        kind: general
+  - name: MVC
+    activities:
+      - name: Introduction
+        path: src/lessons/real-web-apps/mvc.md
+  - name: Testing
+    activities:
+      - name: Introduction
+        path: src/lessons/real-web-apps/testing.md
+  - name: 'Bonus: AI Chatbot'
+    activities:
+      - name: Introduction
+        path: src/lessons/real-web-apps/bonus-chatbot.md
+  - name: Real Web Apps
+    activities:
+      - name: Introduction
+        path: src/lessons/real-web-apps.md
+      - name: Dealing with Reality
+        path: src/lessons/real-web-apps/reality.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Exploring Real Web Apps
+        path: src/lessons/real-web-apps/exploring.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: 'Project: Case Study'
+        path: src/lessons/real-web-apps/case-study.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Further Exploration
+        path: src/lessons/real-web-apps/explore.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Debugging
+        path: src/lessons/real-web-apps/debugging.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Real Databases
+        path: src/lessons/real-web-apps/databases.md
+        workload: 60
+        type: lesson
+        kind: general
+      - name: Practice
+        path: src/lessons/real-web-apps/practice.md
+        workload: 60
+        type: lesson
+        kind: general
+
