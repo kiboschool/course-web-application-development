@@ -6,6 +6,8 @@ But... state is so useful! It's really helpful for the browser to remember thing
 
 That information about a user is typically stored in a **session**. There are several different ways of building sessions.
 
+[This video](https://www.youtube.com/watch?v=UBUNrFtufWo&ab_channel=Fireship) will help differenciate Cookie vs Token auth flows.
+
 ## Cookies
 
 **Cookies** are one of the tools for building sessions. They let the server store a little bit of data in the browser, which the browser will send back on subsequent requests.

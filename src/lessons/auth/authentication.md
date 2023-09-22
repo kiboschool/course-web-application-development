@@ -8,94 +8,115 @@ Apps can use different combinations of factors to authenticate who a user is. Th
 * Device identifiers: cookies, long-lived application sessions, phone numbers, or multi-factor auth
 * Third-party services and SSO: using protocols like Oauth for 'Sign in with Github' (or other providers)
 
-We'll cover the basics of how to build some of these flows in applications, and discuss how to decide which authentication experience is appropriate for the kind of application you are building.
+As you can see, there are many. But we will focus on the easiest of one: Credentials. Particularly with tokens. A token is very large string,like a password, but it's the server that creates it for you. It looks like this:
 
-We will also discuss experiences that work without sign-in: phone and email-based services and guest checkout.
+![jwt](../../images/jwt.png)
 
-> **Authentication is a complex topic**.
->
-> We won't cover everything in this class, and there's a ton more to do to build secure systems. Thankfully, organizations like [OWASP](https://owasp.org/) make cheatsheets like the [Authentication Cheatsheet](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html) that can help you if you are building an authentication system.
+As you can see JWT tokens have 3 different parts. Header, payload and signature. 
 
-## Authentication Factors
+You will provide your email and password to the server and once the server verifies that email and password are correct, it will give you back a token (if email or password are incorrect it will return you error).
 
-It's common to talk categorize the different kinds of factors that applications can use to verify someone's identity:
+Once you have this token, you are `Authenticated` and you will **not** need to send your email and password every time you want to do a request. Only the token. This token will provove that you are who you say you are.
 
-- Something you **know**
-- Something you **have**
-- Something you **are**
+This is how we implement this basic flow in Javascript:
+## 1. Setting Up the Environment
 
-_Passwords_, _pin codes_, and _security questions_ are something **only the user knows** (at least in theory). If only the user knows the password, then if the password is entered, then the person who entered it must be the user!
+Initialize a new Node.js project and install the necessary packages:
 
-_A device_ or a _token_ are examples of something **only the user has**. If you show the user a message in their authenticator app, or send them an SMS confirmation code, and they confirm the code, then they have the device, so the application has more confidence that they are who they say they are.
-
-Biometric identifiers, like FaceID or fingerprint log in represent something that **only the user is**. Biometric identifiers aren't something we'll build in this class, but they are a great option for identification if you are building applications for iOS or Android, since those platforms provide developers with biometric identification tools.
-
-### Further Reading: What is authentication?
-
-Read more about authentication from Cloudflare and Auth0:
-
-> - [Cloudflare: What is authentication?](https://www.cloudflare.com/learning/access-management/what-is-authentication/)
-> - [Auth0: What is authentication](https://auth0.com/intro-to-iam/what-is-authentication)
-
-## Credentials
-
-### Usernames, Emails, and Passwords
-
-The most familiar way of authenticating a user is the username (or email) and password.
-
-Users enter their information into a form, submit it, and the application checks whether their information matches what they entered on sign up.
-
-This is a feature you could build now, using the tools you already know -- it's just a form and some fields in a database... or is it?
-
-> **Warning**: it is very easy to design password authentication _wrong_, in a way that leads to subtle security bugs! We'll cover these in more detail in the next lessons.
-
-Because users will inevitably forget their passwords, it's also very common to consider the _password reset flow_ as a critical part of building a secure authentication system. Because this is so key, you'll learn a bit about sending email from applications this week.
-
-### Tokens
-
-As you saw with APIs, one common way of authenticating a request is to include a token as part of the HTTP request.
-
-```js
-fetch("https://api.example.com/?token=ABCD1234EFGH")
+```bash
+npm init -y
+npm install express jsonwebtoken
 ```
 
-When someone signs up for a developer account, the API stores their information and generates a unique token. When the token is included with the request, the app can look up the user.
+- **Express**: Web framework for Node.js
+- **jsonwebtoken**: For creating JSON Web Tokens (JWT) for sessions.
 
-This is a very common pattern, and it is often used in conjunction with other strategies here.
+## 2. Registration Process
 
-There are some variants to know, such as:
-- including the token in the body of the request, instead of the url params
-- including the token in an HTTP Header instead of in the url params or the body
-- generating fresh tokens based on other credentials, and expiring old tokens after a time limit
+**Step 1**: Set up a basic Express server:
 
-There are some important distinctions between these different token strategies, but we're going to skip over the nuances for right now.
+```javascript
+const express = require('express');
+const app = express();
 
-## Device Identifiers and Multi-factor auth
+app.use(express.json()); // For parsing JSON body
 
-When you sign into a site or an app, you don't need to sign in again each time you reload the page. Cookies, sessions, and device tokens are ways to identify particular devices as belonging to a particular user. If the request includes this identifier, then it must come from this device, and therefore be the same user who is making the request.
+app.listen(3000, () => {
+  console.log('Server started on http://localhost:3000');
+});
+```
 
-These features are really important, but require learning a bit more about cookies and sessions.
+**Step 2**: Implement the registration endpoint:
 
-Multi-factor authentication is a way to confirm that a user is who they say they are by prompting them to confirm their sign-in using a second device. This is a powerful way to secure applications, but building it so that it is still convenient can be challenging! We won't cover building MFA flows in this course, but we will link to external resources so you can read more if you are interested.
+```javascript
+// In-memory user storage. In a real-world application, replace with a database.
+const users = {
+  "john@email.com": "password123",
+  "jane@email.com": "password456"
+};
 
-## Third-party authentication and Single sign-on
+app.post('/register', (req, res) => {
+  const { email, password } = req.body;
 
-Because people are so bad at remembering passwords, many sites build a "Log in with X" feature (log in with Google, log in with Github, log in with Facebook, or many others). That way, users can identify themselves without having to create a new account and enter their email and password.
+  // Store user data (in a real-world application, use a database)
+  users[email] = password;
 
-There are several different protocols for applications to build these integrated flows, the most popular and common being OAuth2. Implementing OAuth is a many-step dance of links, requests, and callbacks between the user, the application, and the OAuth provider (Google, Facebook, Github, etc.). It's increasingly common to use a provider like Stytch or Auth0 to build this feature for you, instead of building these flows by hand.
+  res.status(201).send('User registered');
+});
+```
 
-Single Sign-on is a common enterprise feature, where users sign into their corporate account, and then are automatically authenticated into the other applications that they use. It's common for enterprises to use services like Octa or OneLogin to provide this feature, but applications need to integrate with the SSO providers in order to make the system work. The typical protocols you'll see related to SSO are SAML and OpenID Connect.
+As you can see:
 
-We also won't cover OAuth or Single sign-on in depth in this course, but we will link to resources in case you want to learn more.
+1. **In-Memory User Storage**: The code begins by initializing a `users` constant. This object simulates a storage mechanism by using email-password pairs. In real-world applications, this data would typically be stored in a secure database.
 
-> [Cloudflare: What is SSO?](https://www.cloudflare.com/learning/access-management/what-is-sso/)
+2. **Endpoint Definition**: The code defines an endpoint (`/register`) to handle POST requests. This endpoint is responsible for user registration.
 
-## Passwordless experiences
+3. **Extract User Credentials**: Within the `/register` endpoint, the code extracts the `email` and `password` from the incoming request's body using destructuring.
 
-Signing into a website in order to view a resource, purchase a product, or complete some action is _annoying to users_ and _difficult to build effectively_. When possible, it's great to **not build authentication at all**. This could mean:
+4. **Store User Data**: The provided email and password are stored in the `users` object. This step mimics storing the user's data in a database. When a new user registers, their email becomes a key in the `users` object, and their password becomes the corresponding value.
 
-- building a guest checkout or shopping cart with a session cookie, but no sign in
-- building a whatsapp, sms, or email-based experience, where the user never needs to sign in or create an account
-- designing 'magic link' style sign-in experiences, where the user gets a link sent to their email address or phone, and clicks that to be signed into their account
+5. **Send a Response**: After successfully storing the user's data, the server sends a `201 Created` status code along with a message "User registered" to indicate that the registration process was successful.
 
-We won't cover building passwordless flows or magic links, and will only briefly touch on building with anonymous session cookies. When designing applications, you keep your eye out for ways to avoid authenticating users when possible.
+Storing passwords in plain text, as done above, is not secure. It's highly recommended to [hash](https://nordpass.com/blog/password-hash/) passwords before storing them.
+
+**Step 3**: Implement the registration endpoint:
+```javascript
+// Endpoint to handle user login
+app.post('/login', (req, res) => {
+  // Extract email and password from the incoming request body
+  const { email, password } = req.body;
+
+  // Fetch the stored password for the given email
+  const storedPassword = users[email];
+
+  // Check if the user exists and the provided password matches the stored password
+  if (!storedPassword || storedPassword !== password) {
+    return res.status(400).send('Invalid email or password');
+  }
+
+  // If credentials are valid, generate a JWT token
+  const token = jwt.sign({ user: { email } }, 'SECRET_KEY', { expiresIn: '1h' });
+
+  // Send the generated token as the response
+  res.json({ token });
+});
+```
+
+As you can see:
+
+1. **Endpoint Definition**: The code starts by defining a `/login` endpoint to handle POST requests. This endpoint is responsible for authenticating users.
+
+2. **Extract User Credentials**: Within the `/login` endpoint, the code extracts the `email` and `password` from the incoming request's body using destructuring.
+
+3. **Retrieve Stored Password**: The code then fetches the password associated with the provided email from the `users` object, mimicking a database query.
+
+4. **Credential Verification**: The system checks if the provided email exists within the `users` object and if the associated password matches the provided password. 
+    - If either condition is not met, the server responds with a `400 Bad Request` status and a message "Invalid email or password," indicating a failed login attempt.
+
+5. **Token Generation**: If the credentials are valid, the server generates a JSON Web Token (JWT). This token contains a payload with a `user` object that has the `email` property. The token is signed using a secret key (`'SECRET_KEY'`) and is set to expire in one hour (`expiresIn: '1h'`).
+
+6. **Send Token as Response**: The server sends the generated JWT as the response in JSON format. This token will typically be used by the client to authenticate subsequent requests, verifying that the user is logged in and has the appropriate permissions.
+
+Normally, when the client of this API recives the token, they will store it in local cookies or local storage to use it later.
+
+Something interesting about the JWT, is that inside of all big string is your email, but you need to decrypt it first (we will do that in the next lesson). Actually anyone can decrypt your JWT, but **only the server can create one**. Go to [this video](https://www.youtube.com/watch?v=7Q17ubqLfaM&ab_channel=WebDevSimplified) to learn more.

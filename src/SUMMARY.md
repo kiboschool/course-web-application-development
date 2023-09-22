@@ -98,7 +98,7 @@
   - [CRUD Operations with Prisma](lessons/orms/crud-operations-with-prisma.md)
   - [Assignment: Book Review System](lessons/orms/assignment.md)
   - [Bonus: More ORMs](lessons/orms/more-orms.md)
-### Week 6 - APIs
+### Week 8 - APIs
 
 - [APIs](lessons/apis.md)
   - [API Basics](lessons/apis/basics.md)
@@ -107,19 +107,18 @@
   - [External services](lessons/apis/services.md)
   - [Documentation](lessons/apis/documentation.md)
   - [API Authentication](lessons/apis/authentication.md)
+  - [Testing APIs](lessons/apis/testing-apis.md)
   - [Practice](lessons/apis/practice.md)
   - [Project: Product Info](lessons/apis/project.md)
 
 ### Week 7 - Auth
 
 - [Auth](lessons/auth.md)
-  - [Authentication](lessons/auth/authentication.md)
   - [Auth flows](lessons/auth/flow.md)
-  - [Passwords](lessons/auth/passwords.md)
-  - [Emails](lessons/auth/email.md)
-  - [Cookies and Sessions](lessons/auth/cookies.md)
+  - [Authentication](lessons/auth/authentication.md)
   - [Authorization](lessons/auth/authorization.md)
   - [Practice](lessons/auth/practice.md)
+  - [Bonus: Cookies and Sessions](lessons/auth/cookies.md)
   - [Bonus: Cryptography](lessons/auth/cryptography.md)
   - [Bonus: OAuth](lessons/auth/oauth.md)
 

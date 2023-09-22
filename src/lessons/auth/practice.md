@@ -29,16 +29,6 @@ Your log will count for credit as long as it:
 
 Complete the PassportJS tutorial to implement a password authentication strategy:
 
-> [Passport Tutorial: Password Authentication](https://www.passportjs.org/tutorials/password/)
+> Passport is a JS library to avoid doing auth flows from scratch (like we did on exercises before)
 
-## Tutorial: Passwords in Flask
-
-Complete this tutorial to add authentication to a Flask application:
-
-> [Dev.to: Adding Authentication to a Flask App](https://dev.to/nagatodev/adding-authentication-to-a-flask-application-53ep)
-
-## Tutorial: "Sign in with Google" with PassportJS
-
-Use PassportJS to add 'Log in with Google' using Oauth
-
-> [Passport Tutorial: Sign in with Google](https://www.passportjs.org/tutorials/google/)
+> [Passport Tutorial: JWT Authentication](https://medium.com/front-end-weekly/learn-using-jwt-with-passport-authentication-9761539c4314)
