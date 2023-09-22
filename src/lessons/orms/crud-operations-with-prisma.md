@@ -272,7 +272,7 @@ These are just a few examples of what you can achieve with Prisma. The ability t
 
 ## Setting Up API Routes in Express.js
 
-Now that we've explored how to write the queries in plain javascript, let's do it with Express.
+Now that we've explored how to write the queries in plain JavaScript, let's do it with Express.
 
 Extend your `index.js` to handle these basic operations:
 
