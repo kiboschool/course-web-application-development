@@ -1,6 +1,6 @@
 # ORMs
 
-Writing raw SQL queries can be tedious and compllicated. This is where ORM (Object-Relational Mapping) comes into play, simplifying database interactions for developers.
+Writing raw SQL queries can be tedious and complicated. This is where ORM (Object-Relational Mapping) comes into play, simplifying database interactions for developers.
 
 #### Advantages of ORMs over Raw SQL
 
