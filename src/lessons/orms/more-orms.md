@@ -1,6 +1,6 @@
 # Bonus: More ORMs
 
-In our journey through the world of ORMs, we've discovered how Prisma works, exploring its  features and capabilities. But the landscape of ORMs is vast. Different ORMs fullfil to different needs, languages, and frameworks. As we conclude our series, let's explore some other ORMs in the JavaScript and Python ecosystems.
+In our journey through the world of ORMs, we've discovered how Prisma works, exploring its features and capabilities. But the landscape of ORMs is vast. Different ORMs fulfill different needs, languages, and frameworks. As we conclude our series, let's explore some other ORMs in the JavaScript and Python ecosystems.
 
 ## JavaScript:
 
