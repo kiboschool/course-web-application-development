@@ -1,6 +1,6 @@
 # Prisma as ORM
 
-So let's set up a simple app with prisma and Javascript.
+So let's set up a simple app with Prisma and JavaScript.
 
 By the way, Prisma can also be used in python with Flask.  However, this week we will use Express and JavaScript.
 
