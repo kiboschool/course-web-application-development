@@ -1,4 +1,4 @@
-# Crud Operations with Prisma
+# CRUD Operations with Prisma
 
 In the previous article, we've set up an Express application integrated with Prisma. We've also created a basic `User` model and seeded our database with some sample users. Now, let's extend our application to perform more CRUD (Create, Read, Update, Delete) operations and explore various relationships between data models.
 
