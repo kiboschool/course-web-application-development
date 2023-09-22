@@ -83,7 +83,7 @@ After you've updated your `schema.prisma` don't forget to run the migration comm
 npx prisma migrate
 ```
 
-With our relationships defined, let's explore into CRUD operations in plain javascript
+With our relationships defined, let's explore CRUD operations in plain JavaScript
 
 ## CRUD Operations
 
