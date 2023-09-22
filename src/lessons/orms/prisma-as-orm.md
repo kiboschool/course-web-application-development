@@ -2,7 +2,7 @@
 
 So let's set up a simple app with prisma and Javascript.
 
-By the way Prisma can be used as well in Flask (python) but for this week, we will use express and javascript
+By the way, Prisma can also be used in python with Flask.  However, this week we will use Express and JavaScript.
 
 ## Setting Up Prisma with Express.js
 
