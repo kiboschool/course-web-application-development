@@ -1,6 +1,6 @@
 # Authorization
 
-The first part of 'auth' (Authentication) is all about proving that a user is who they say they are. We solve with with a JWT token.
+The first part of 'auth' (Authentication) is all about proving that a user is who they say they are. In the example, we used a JWT token for this.
 
 The next part, Authorization, is about giving users the right access, based on who they are.
 
