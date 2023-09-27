@@ -1,4 +1,4 @@
-# Practice
+# Practice: Auth
 
 > 💡 This is your chance to put what you’ve learned into action.
 >
@@ -12,7 +12,7 @@ of your overall grade.
 
 To log your practice for credit:
 
-> **[Submit a link using this form](https://forms.gle/z8GVWpkbPAtsu4b98)**
+> **[Submit a link using this form](https://www.gradescope.com/courses/575913/assignments/3424561)**
 
 * Practice exercises will be graded for _completion_ not _correctness_. You have
 to document that you did the work, but we won't be checking if you got it right.
