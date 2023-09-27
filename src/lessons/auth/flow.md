@@ -45,13 +45,6 @@ Sign in relies on the user to remember their credentials and enter them. It's a 
 
 Once again, there are lots of nuances to checking the credentials to prevent different kinds of attacks. We'll cover those in greater depth.
 
-> **Further reading: Sign in forms**
->
-> Sign in forms are everywhere. Some are nice to use, and some are unfriendly. These pages from web.dev explain how to design sign-in forms that are user-friendly.
->
-> - [Web.Dev: Sign in form best practices](https://web.dev/sign-in-form-best-practices/)
-> - [Web.Dev: Codelab - Build a sign in form](https://web.dev/codelab-sign-in-form-best-practices/)
-
 ## Authenticated Navigation
 
 Once the user is logged in, their device stores a cookie or token that authenticates them. 
@@ -68,13 +61,9 @@ Sign out is the simplest part.
 
 A signout route removes the stored identifier (whether that's a cookie or a token), so the user is no longer identified.
 
-## Other auth pages and flows
-
-As mentioned, there are other pages and flows involved in authentication and user management.
-
-- **Email verification**: Unless a user can prove (usually by entering a code or clicking a link) that they can see emails delivered to a particular address, you can't trust that their email address is correct. So, you need an Email Verification step. See [OWASP Email Validation](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html#email-address-validation)
-- **Multi-factor authentication**: Multi-factor authentication (MFA), such as a code sent to your phone, can prevent many different attacks. MFA requires a configuration, as well as additional steps when logging in.
-- **Forgot Password**: Users forget their passwords, but still need to access their account. That's why you need a [forgot Password and password reset](https://cheatsheetseries.owasp.org/cheatsheets/Forgot_Password_Cheat_Sheet.html) flow.
-- **Update email or password**: Unlike updating the rest of the user profile, updating the username, email, and password fields are security-sensitive.
-- **Revalidation**: If a user will attempt a sensitive action (like deleting their account, adding a new shipping address, or changing their login details), many apps require revalidation -- entering their password again to confirm their identity.
-- **Invite or approve users**: for managing group accounts or shared permissions, invite and approval pages are key. There are special considerations so that your app does not get abused to spam others.
+> **Further reading: Sign in forms**
+>
+> Sign in forms are everywhere. Some are nice to use, and some are unfriendly. These pages from web.dev explain how to design sign-in forms that are user-friendly.
+>
+> - [Web.Dev: Sign in form best practices](https://web.dev/sign-in-form-best-practices/)
+> - [Web.Dev: Codelab - Build a sign in form](https://web.dev/codelab-sign-in-form-best-practices/)
