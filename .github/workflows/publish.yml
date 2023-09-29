@@ -18,8 +18,6 @@ jobs:
       contents: "read"
       id-token: "write"
     steps:
-      - uses: actions/checkout@v2
-
       - name: publish
         run: |
           curl --request PUT --url $API_URL/api/latest/courses -H 'Authorization: SharedKey $API_KEY' -H 'Content-Type: application/json' --data '{"github_path": "'"$GITHUB_ACTION_REPOSITORY"'"}'
