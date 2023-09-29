@@ -6,7 +6,7 @@ In this assignment you will build a the same from last week but in Express
 
 [![Click to open the project](https://img.shields.io/static/v1?label=Open%20Project&message=Express-Guestbook&color=blue)](https://classroom.github.com/a/YpWonAN_)
 
-[https://classroom.github.com/a/_EN2f8r_](https://classroom.github.com/a/YpWonAN_)
+[https://classroom.github.com/a/YpWonAN_](https://classroom.github.com/a/YpWonAN_)
 
 ## Submission
 

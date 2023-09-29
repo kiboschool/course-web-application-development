@@ -1,4 +1,4 @@
-# Assignment: Case Study
+# Project: Case Study
 
 _Due Date: Mar 17_
 
@@ -36,4 +36,4 @@ It's one of the go-to options for building a newsletter or blog. You can also le
 
 ## Submission
 
-Complete the questions on the **[Gradescope Assignment](https://www.gradescope.com/courses/480017/assignments/2739963)** to get credit for this assignment.
+Complete the questions on the **[Gradescope Assignment](https://www.gradescope.com/courses/575913/assignments/3087814/)** to get credit for this assignment.

@@ -21,7 +21,7 @@
   - [Routing in Flask](lessons/web-apps/routing-in-flask.md)
   - [Query VS URL params](lessons/query-vs-url-params.md)
   - [Web app architecture](lessons/web-apps/web-app-architecture.md)
-  - [Practice](lessons/web-apps/practice.md)
+  - [Practice: Web Applications](lessons/web-apps/practice.md)
   - [Assignment: Web App Tour](lessons/web-apps/project.md)
 
 ### Week 2 - Templating
@@ -30,8 +30,8 @@
   - [What are templates?](lessons/templates/what-are-templates.md)
   - [Shared templates](lessons/templates/shared-templates.md)
   - [Static files](lessons/routing/static.md)
-  - [Practice](lessons/templates/practice.md)
-  - [Project: Number Guessing Game](lessons/templates/project.md)
+  - [Practice: Templating](lessons/templates/practice.md)
+  - [Assignment: Number Guessing Game](lessons/templates/project.md)
   - [Bonus: Third-party code](lessons/routing/third-party-code.md)
 
 ### Week 3 - Databases
@@ -44,7 +44,7 @@
   - [Limit and Order](lessons/databases/limit-and-order.md)
   - [Database Management](lessons/databases/management.md)
   - [Flask and SQL](lessons/flask-and-sql.md)
-  - [Practice](lessons/databases/practice.md)
+  - [Practice: Databases](lessons/databases/practice.md)
   - [Bonus: Migrations and Seeding](lessons/databases/migrations-and-seeding.md)
 ### Week 4 - Forms
 
@@ -83,7 +83,7 @@
   - [Many-to-many relationships](lessons/data-modeling/many-to-many.md)
   - [Entity-Relationship Diagrams](lessons/data-modeling/erds.md)
   - [Joins](lessons/data-modeling/joins.md)
-  - [Practice](lessons/data-modeling/practice.md)
+  - [Practice: Data Modeling](lessons/data-modeling/practice.md)
   - [Bonus: Tables normalization](lessons/data-modeling/relations-and-normalization.md)
   - [Bonus: Database constraints](lessons/data-modeling/database-constraints.md)
   - [Bonus: N+1 queries](lessons/data-modeling/n-plus-one.md)
@@ -96,7 +96,7 @@
   - [What is an ORM?](lessons/orms/what-is-an-orm.md)
   - [Prisma as ORM](lessons/orms/prisma-as-orm.md)
   - [CRUD Operations with Prisma](lessons/orms/crud-operations-with-prisma.md)
-  - [Assignment: Book Review System](lessons/orms/assignment.md)
+  - [Project: Book Review System](lessons/orms/assignment.md)
   - [Bonus: More ORMs](lessons/orms/more-orms.md)
 ### Week 8 - APIs
 
@@ -108,42 +108,23 @@
   - [Documentation](lessons/apis/documentation.md)
   - [API Authentication](lessons/apis/authentication.md)
   - [Testing APIs](lessons/apis/testing-apis.md)
-  - [Practice](lessons/apis/practice.md)
-  - [Project: Product Info](lessons/apis/project.md)
+  - [Practice: APIs](lessons/apis/practice.md)
+  - [Assignment: Product Info](lessons/apis/project.md)
 
-### Week 7 - Auth
+### Week 9 - Auth
 
 - [Auth](lessons/auth.md)
   - [Auth flows](lessons/auth/flow.md)
   - [Authentication](lessons/auth/authentication.md)
   - [Authorization](lessons/auth/authorization.md)
-  - [Practice](lessons/auth/practice.md)
+  - [Practice: Auth](lessons/auth/practice.md)
   - [Bonus: Cookies and Sessions](lessons/auth/cookies.md)
   - [Bonus: Cryptography](lessons/auth/cryptography.md)
-  - [Bonus: OAuth](lessons/auth/oauth.md)
 
-### Week 8 - Advanced Features and Patterns
-
-<!--
-- Advanced templating
-- Libraries
-- Caching
-- Role-based Auth 
-- Architecture
-- [MVC](lessons/real-web-apps/mvc.md)
-- [Testing](lessons/real-web-apps/testing.md)
-- [Bonus: AI Chatbot](lessons/real-web-apps/bonus-chatbot.md)
--->
-
-### Weeks 9/10 - Real Web Apps
+### Weeks 10 - Real Web Apps
 
 - [Real Web Apps](lessons/real-web-apps.md)
   - [Dealing with Reality](lessons/real-web-apps/reality.md)
   - [Exploring Real Web Apps](lessons/real-web-apps/exploring.md)
+  - [What is next: Frontend](lessons/real-web-apps/what-is-next-front-end.md)
   - [Project: Case Study](lessons/real-web-apps/case-study.md)
-<!--
-  - [Further Exploration](lessons/real-web-apps/explore.md)
-  - [Debugging](lessons/real-web-apps/debugging.md)
-  - [Real Databases](lessons/real-web-apps/databases.md)
-  - [Practice](lessons/real-web-apps/practice.md)
--->
