@@ -14,14 +14,15 @@ To log your practice for credit:
 
 > **[Submit a link using this form](https://www.gradescope.com/courses/575913/assignments/3424206)**
 
-* Practice exercises will be graded for _completion_ not _correctness_. You have
-to document that you did the work, but we won't be checking if you got it right.
-* You are welcome to log practice that is not one of the exercises listed on the 
-practice page.
-* You can submit a link to a github repo, a replit, a Google doc, or some other 
-resource.
+- Practice exercises will be graded for _completion_ not _correctness_. You have
+  to document that you did the work, but we won't be checking if you got it right.
+- You are welcome to log practice that is not one of the exercises listed on the
+  practice page.
+- You can submit a link to a github repo, a replit, a Google doc, or some other
+  resource.
 
 Your log will count for credit as long as it:
+
 - is accessible to your instructor
 - shows your own work
 
@@ -39,7 +40,19 @@ Ubolter is a phone-based taxi application. Customers can request rides, and driv
 
 After you've drawn the ERD, write the CREATE TABLE statements that would create the tables in your design.
 
-## What's wrong with this picture?
+## JOIN practice
+
+If you have not already, [practice JOINs on SQLBolt](https://sqlbolt.com/lesson/select_queries_with_joins).
+
+You can get more JOIN practice with the exercises on SQLZoo:
+
+- [The JOIN operation](https://sqlzoo.net/wiki/The_JOIN_operation)
+- [JOIN Quiz](https://sqlzoo.net/wiki/JOIN_Quiz)
+- [More JOIN Operations](https://sqlzoo.net/wiki/More_JOIN_operations)
+
+> SQLBolt also has lessons on other kinds of queries, like aggregations. If you have time, it's good to get more SQL practice.
+
+## What's wrong with this picture? (optional)
 
 You are working on an event management system, and a fellow engineer comes to you with a data modeling problem: they can't figure out how to write their queries!
 
@@ -50,6 +63,7 @@ They share this data model with you:
 The ERD shows an events table with id, title, start_date, and end_date. The attendees table has event_id, registration_status, name, email, and password_hash.
 
 Your colleague is having trouble with two SQL queries:
+
 - updating the email of an attendee
 - finding all the events that one person has attended
 
@@ -57,18 +71,7 @@ There's a normalization problem. Write an explanation to your colleague about wh
 
 As a bonus, write the UPDATE and SELECT queries to solve your colleague's problems, based on the new data model.
 
-## JOIN practice
-
-If you have not already, [practice JOINs on SQLBolt](https://sqlbolt.com/lesson/select_queries_with_joins). 
-
-You can get more JOIN practice with the exercises on SQLZoo:
-- [The JOIN operation](https://sqlzoo.net/wiki/The_JOIN_operation)
-- [JOIN Quiz](https://sqlzoo.net/wiki/JOIN_Quiz)
-- [More JOIN Operations](https://sqlzoo.net/wiki/More_JOIN_operations)
-
-> SQLBolt also has lessons on other kinds of queries, like aggregations. If you have time, it's good to get more SQL practice.
-
-## Many to many relationships: Restaurants
+## Many to many relationships: Restaurants (optional)
 
 Practice working with many-to-many relationships by reading, running, and writing queries in the restaurant, tags, and reviews domain.
 

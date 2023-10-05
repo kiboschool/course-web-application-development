@@ -13,6 +13,10 @@ For your final assignment, you will investigate two real-world web applications,
 - Clone the application, install dependencies, and follow the Getting started instructions to run the code on your laptop
 - Answer the questions about each application
 
+## Submission
+
+Complete the questions on the **[Gradescope Assignment](https://www.gradescope.com/courses/575913/assignments/3087814/)** to get credit for this assignment.
+
 ## Redash
 
 Redash is an open-source browser-based data tool. From the description:
@@ -32,8 +36,3 @@ Ghost is an open-source blogging and newsletter platform, built on Express.
 It's one of the go-to options for building a newsletter or blog. You can also learn a lot about how a large, widely-used Express app works by reading the source.
 
 [Ghost on Github](https://github.com/TryGhost/Ghost)
-
-
-## Submission
-
-Complete the questions on the **[Gradescope Assignment](https://www.gradescope.com/courses/575913/assignments/3087814/)** to get credit for this assignment.
