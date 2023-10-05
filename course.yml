@@ -1,409 +1,646 @@
 name: Web Application Development
 code: CSF005
 term: Oct-2023
+about_path: src/course-overview.md
 units:
+  - name: Course Overview
+    activities:
+      - name: Introduction
+        path: src/course-overiew.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2023-09-27
+      - name: Live Classes
+        path: src/live-classes.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2023-09-27
+      - name: Assessments
+        path: src/assessments.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2023-09-27
+      - name: Getting Help
+        path: src/getting-help.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2023-09-27
+      - name: Giving Help
+        path: src/giving-help.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2023-09-27
+      - name: Academic Integrity
+        path: src/academic-integrity.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2023-09-27
+      - name: Course Tools
+        path: src/course-tools.md
+        type: lesson
+        kind: GENERAL
+        workload: 15
+        publish: 2023-09-27
   - name: Web Applications
     activities:
       - name: Introduction
         path: src/lessons/web-apps.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2023-09-27
       - name: What are web apps?
         path: src/lessons/web-apps/what-are-web-apps.md
-        workload: 60
         type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
       - name: Intro to Flask
         path: src/lessons/web-apps/intro-to-flask.md
-        workload: 60
         type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
       - name: Deploying apps
         path: src/lessons/web-apps/deploying-apps.md
-        workload: 60
         type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
       - name: URLs
         path: src/lessons/web-apps/urls.md
-        workload: 60
         type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
       - name: Routing in Flask
         path: src/lessons/web-apps/routing-in-flask.md
-        workload: 60
         type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
       - name: Query VS URL params
         path: src/lessons/query-vs-url-params.md
-        workload: 60
         type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
       - name: Web app architecture
         path: src/lessons/web-apps/web-app-architecture.md
-        workload: 60
         type: lesson
-        kind: general
-      - name: Practice
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
+      - name: 'Practice: Web Applications'
         path: src/lessons/web-apps/practice.md
-        workload: 60
-        type: lesson
-        kind: general
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 180
+        grade_weight: 2.0
+        due: 2023-09-27
+        publish: 2023-10-02
       - name: 'Assignment: Web App Tour'
         path: src/lessons/web-apps/project.md
-        workload: 60
         type: assignment
-        kind: assignment
-        grade_weight: 100
+        kind: ASSIGNMENT
+        workload: 300
+        grade_weight: 6.0
+        due: 2023-09-27
+        publish: 2023-10-02
   - name: Templating
     activities:
       - name: Introduction
         path: src/lessons/routing-templating.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2023-09-27
       - name: What are templates?
         path: src/lessons/templates/what-are-templates.md
-        workload: 60
         type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
       - name: Shared templates
         path: src/lessons/templates/shared-templates.md
-        workload: 60
         type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
       - name: Static files
         path: src/lessons/routing/static.md
-        workload: 60
         type: lesson
-        kind: general
-      - name: Practice
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
+      - name: 'Practice: Templating'
         path: src/lessons/templates/practice.md
-        workload: 60
-        type: lesson
-        kind: general
-      - name: 'Project: Number Guessing Game'
-        path: src/lessons/templates/project.md
-        workload: 60
         type: assignment
-        kind: assignment
-        grade_weight: 0
+        kind: ASSIGNMENT
+        workload: 180
+        grade_weight: 2.0
+        due: 2023-09-27
+        publish: 2023-10-02
+      - name: 'Assignment: Number Guessing Game'
+        path: src/lessons/templates/project.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 300
+        grade_weight: 6.0
+        due: 2023-09-27
+        publish: 2023-10-02
       - name: 'Bonus: Third-party code'
         path: src/lessons/routing/third-party-code.md
-        workload: 60
         type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
   - name: Databases
     activities:
       - name: Introduction
         path: src/lessons/databases.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2023-09-27
       - name: Relational DBs
         path: src/lessons/databases/relational-dbs.md
-        workload: 60
         type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
       - name: Setting up a SQLite database
         path: src/lessons/databases/setting-up-sqlite.md
-        workload: 60
         type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
       - name: Querying
         path: src/lessons/databases/querying.md
-        workload: 60
         type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
       - name: Selecting and filtering
         path: src/lessons/databases/selecting-and-filtering.md
-        workload: 60
         type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
       - name: Limit and Order
         path: src/lessons/databases/limit-and-order.md
-        workload: 60
         type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
       - name: Database Management
         path: src/lessons/databases/management.md
-        workload: 60
         type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
       - name: Flask and SQL
         path: src/lessons/flask-and-sql.md
-        workload: 60
         type: lesson
-        kind: general
-      - name: Practice
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
+      - name: 'Practice: Databases'
         path: src/lessons/databases/practice.md
-        workload: 60
-        type: lesson
-        kind: general
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 180
+        grade_weight: 2.0
+        due: 2023-09-27
+        publish: 2023-10-02
       - name: 'Bonus: Migrations and Seeding'
         path: src/lessons/databases/migrations-and-seeding.md
-        workload: 60
         type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
   - name: Forms
     activities:
       - name: Introduction
         path: src/lessons/forms.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2023-09-27
       - name: HTML Forms
         path: src/lessons/forms/html-forms.md
-        workload: 60
         type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
       - name: Form Data
         path: src/lessons/forms/form-data.md
-        workload: 60
         type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
       - name: INSERT, UPDATE, and DELETE
         path: src/lessons/forms/insert-update.md
-        workload: 60
         type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
       - name: Parsing and Validation
         path: src/lessons/forms/parsing-and-validation.md
-        workload: 60
         type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
       - name: Client-side Validation
         path: src/lessons/forms/client-side-validation.md
-        workload: 60
         type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
       - name: Server-side Validation
         path: src/lessons/forms/server-side-validation.md
-        workload: 60
         type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
       - name: Styling Forms
         path: src/lessons/forms/styling-forms.md
-        workload: 60
         type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
       - name: 'Assignment: Guestbook'
         path: src/lessons/forms/assignment.md
-        workload: 60
         type: assignment
-        kind: assignment
-        grade_weight: 0
+        kind: ASSIGNMENT
+        workload: 300
+        grade_weight: 6.0
+        due: 2023-09-27
+        publish: 2023-10-02
       - name: 'BONUS: Accessibility'
         path: src/lessons/forms/accessibility.md
-        workload: 60
         type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
       - name: 'BONUS: SQL Injection'
         path: src/lessons/forms/sql-injection.md
-        workload: 60
         type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
       - name: 'BONUS: Database constraints'
         path: src/lessons/forms/database-constraints.md
-        workload: 60
         type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
+  - name: Data Modeling
+    activities:
+      - name: Introduction
+        path: src/lessons/data-modeling.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2023-09-27
+      - name: Table relations
+        path: src/lessons/data-modeling/table-relations.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
+      - name: Foreign Keys
+        path: src/lessons/data-modeling/fk-join.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
+      - name: One-to-one relationships
+        path: src/lessons/data-modeling/one-to-one.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
+      - name: One-to-many relationships
+        path: src/lessons/data-modeling/one-to-many.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
+      - name: Many-to-many relationships
+        path: src/lessons/data-modeling/many-to-many.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
+      - name: Entity-Relationship Diagrams
+        path: src/lessons/data-modeling/erds.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
+      - name: Joins
+        path: src/lessons/data-modeling/joins.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
+      - name: 'Practice: Data Modeling'
+        path: src/lessons/data-modeling/practice.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 180
+        grade_weight: 2.0
+        due: 2023-09-27
+        publish: 2023-10-02
+      - name: Midterm Project
+        path: src/lessons/midterm-project.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 600
+        grade_weight: 25.0
+        due: 2023-09-27
+        publish: 2023-10-02
+      - name: 'Bonus: Tables normalization'
+        path: src/lessons/data-modeling/relations-and-normalization.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
+      - name: 'Bonus: Database constraints'
+        path: src/lessons/data-modeling/database-constraints.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
+      - name: 'Bonus: N+1 queries'
+        path: src/lessons/data-modeling/n-plus-one.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
+      - name: 'Bonus: Database performance'
+        path: src/lessons/data-modeling/explain-indexes-tuning.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
   - name: More web frameworks
     activities:
       - name: Introduction
         path: src/lessons/more-web-frameworks.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2023-09-27
       - name: Intro to express
         path: src/lessons/more-web-frameworks/intro-to-express.md
-        workload: 60
         type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
       - name: Express vs Flask
         path: src/lessons/more-web-frameworks/express-vs-flask.md
-        workload: 60
         type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
       - name: Deploying express apps
         path: src/lessons/more-web-frameworks/deploying-express-apps.md
-        workload: 60
         type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
       - name: Express templates
         path: src/lessons/more-web-frameworks/express-templates.md
-        workload: 60
         type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
       - name: Express forms
         path: src/lessons/more-web-frameworks/express-forms.md
-        workload: 60
         type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
       - name: Express and SQL
         path: src/lessons/more-web-frameworks/express-and-sql.md
-        workload: 60
         type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
       - name: Other web frameworks
         path: src/lessons/more-web-frameworks/other-web-frameworks.md
-        workload: 60
         type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
       - name: 'Assignment: Guestbook in express'
         path: src/lessons/more-web-frameworks/assignment.md
-        workload: 60
         type: assignment
-        kind: assignment
-        grade_weight: 0
-  - name: Deployment
+        kind: ASSIGNMENT
+        workload: 300
+        grade_weight: 6.0
+        due: 2023-09-27
+        publish: 2023-10-02
+  - name: ORMs
     activities:
       - name: Introduction
-        path: src/lessons/deployment.md
-      - name: Cloud Hosts
-        path: src/lessons/deployment/hosts.md
-        workload: 60
+        path: src/lessons/orms.md
         type: lesson
-        kind: general
-      - name: Deploy a Project
-        path: src/lessons/deployment/project.md
-        workload: 60
+        kind: GENERAL
+        workload: 30
+        publish: 2023-09-27
+      - name: What is an ORM?
+        path: src/lessons/orms/what-is-an-orm.md
         type: lesson
-        kind: general
-      - name: Domains and DNS
-        path: src/lessons/deployment/dns.md
-        workload: 60
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
+      - name: Prisma as ORM
+        path: src/lessons/orms/prisma-as-orm.md
         type: lesson
-        kind: general
-      - name: Domain names
-        path: src/lessons/deployment/domains.md
-        workload: 60
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
+      - name: CRUD Operations with Prisma
+        path: src/lessons/orms/crud-operations-with-prisma.md
         type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
+      - name: 'Assignment: Book Review System'
+        path: src/lessons/orms/assignment.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 300
+        grade_weight: 6.0
+        due: 2023-09-27
+        publish: 2023-10-02
+      - name: 'Bonus: More ORMs'
+        path: src/lessons/orms/more-orms.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
   - name: APIs
     activities:
       - name: Introduction
         path: src/lessons/apis.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2023-09-27
       - name: API Basics
         path: src/lessons/apis/basics.md
-        workload: 60
         type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
       - name: Creating APIs
         path: src/lessons/apis/creating-apis.md
-        workload: 60
         type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
       - name: REST and CRUD
         path: src/lessons/apis/rest-and-crud.md
-        workload: 60
         type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
       - name: External services
         path: src/lessons/apis/services.md
-        workload: 60
         type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
       - name: Documentation
         path: src/lessons/apis/documentation.md
-        workload: 60
         type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
       - name: API Authentication
         path: src/lessons/apis/authentication.md
-        workload: 60
         type: lesson
-        kind: general
-      - name: Practice
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
+      - name: Testing APIs
+        path: src/lessons/apis/testing-apis.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
+      - name: 'Practice: APIs'
         path: src/lessons/apis/practice.md
-        workload: 60
-        type: lesson
-        kind: general
-      - name: 'Project: Product Info'
-        path: src/lessons/apis/project.md
-        workload: 60
         type: assignment
-        kind: assignment
-        grade_weight: 0
+        kind: ASSIGNMENT
+        workload: 180
+        grade_weight: 2.0
+        due: 2023-09-27
+        publish: 2023-10-02
+      - name: 'Assignment: Product Info'
+        path: src/lessons/apis/project.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 300
+        grade_weight: 6.0
+        due: 2023-09-27
+        publish: 2023-10-02
   - name: Auth
     activities:
       - name: Introduction
         path: src/lessons/auth.md
-      - name: Authentication
-        path: src/lessons/auth/authentication.md
-        workload: 60
         type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 30
+        publish: 2023-09-27
       - name: Auth flows
         path: src/lessons/auth/flow.md
-        workload: 60
         type: lesson
-        kind: general
-      - name: Passwords
-        path: src/lessons/auth/passwords.md
-        workload: 60
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
+      - name: Authentication
+        path: src/lessons/auth/authentication.md
         type: lesson
-        kind: general
-      - name: Emails
-        path: src/lessons/auth/email.md
-        workload: 60
-        type: lesson
-        kind: general
-      - name: Cookies and Sessions
-        path: src/lessons/auth/cookies.md
-        workload: 60
-        type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
       - name: Authorization
         path: src/lessons/auth/authorization.md
-        workload: 60
         type: lesson
-        kind: general
-      - name: Practice
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
+      - name: 'Practice: Auth'
         path: src/lessons/auth/practice.md
-        workload: 60
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 180
+        grade_weight: 2.0
+        due: 2023-09-27
+        publish: 2023-10-02
+      - name: Final Project
+        path: src/lessons/final-project.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 600
+        grade_weight: 25.0
+        due: 2023-09-27
+        publish: 2023-10-02
+      - name: 'Bonus: Cookies and Sessions'
+        path: src/lessons/auth/cookies.md
         type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
       - name: 'Bonus: Cryptography'
         path: src/lessons/auth/cryptography.md
-        workload: 60
         type: lesson
-        kind: general
-      - name: 'Bonus: OAuth'
-        path: src/lessons/auth/oauth.md
-        workload: 60
-        type: lesson
-        kind: general
-  - name: MVC
-    activities:
-      - name: Intro to MVC
-        path: src/lessons/real-web-apps/mvc.md
-  - name: Testing
-    activities:
-      - name: Intro to Testiung
-        path: src/lessons/real-web-apps/testing.md
-  - name: 'Bonus: AI Chatbot'
-    activities:
-      - name: Intro Bonus
-        path: src/lessons/real-web-apps/bonus-chatbot.md
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
   - name: Real Web Apps
     activities:
-      - name: Introduction to Real Web Apps
+      - name: Introduction
         path: src/lessons/real-web-apps.md
+        type: lesson
+        kind: GENERAL
+        workload: 30
+        publish: 2023-09-27
       - name: Dealing with Reality
         path: src/lessons/real-web-apps/reality.md
-        workload: 60
         type: lesson
-        kind: general
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
       - name: Exploring Real Web Apps
         path: src/lessons/real-web-apps/exploring.md
-        workload: 60
         type: lesson
-        kind: general
-      - name: 'Project: Case Study'
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
+      - name: 'What is next: Frontend'
+        path: src/lessons/real-web-apps/what-is-next-front-end.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: 2023-09-27
+      - name: 'Practice: Case Study'
         path: src/lessons/real-web-apps/case-study.md
-        workload: 60
         type: assignment
-        kind: assignment
-        grade_weight: 0
-      - name: Further Exploration
-        path: src/lessons/real-web-apps/explore.md
-        workload: 60
-        type: lesson
-        kind: general
-      - name: Real Databases
-        path: src/lessons/real-web-apps/databases.md
-        workload: 60
-        type: lesson
-        kind: general
-      - name: Practice
-        path: src/lessons/real-web-apps/practice.md
-        workload: 60
-        type: lesson
-        kind: general
+        kind: ASSIGNMENT
+        workload: 180
+        grade_weight: 2.0
+        due: 2023-09-27
+        publish: 2023-10-02
 

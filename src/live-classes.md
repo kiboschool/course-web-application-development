@@ -1,5 +1,51 @@
 # Live Classes
 
+Each week, you will have a live class (see course overview for time).
+You are required to attend the live class sessions.  
+
+Video recordings and resources for the class will be posted after the classes each week.
+If you have technical difficulties or are occasionally unable
+to attend the live class, please be sure to watch the recording as quickly as possible
+so that you do not fall behind.  
+
+| Week | Topic                        | Materials            | Live Class        |
++------+------------------------------+----------------------+-------------------+
+| 1    |                              |                      |                   |
+| 2    |                              |                      |                   |
+| 3    |                              |                      |                   |
+| 4    |                              |                      |                   |
+| 5    |                              |                      |                   |
+| 6    |                              |                      |                   |
+| 7    |                              |                      |                   |
+| 8    |                              |                      |                   |
+| 9    |                              |                      |                   |
+
+<!-- 
+[w1-materials]: 
+[w1-video]: 
+[w2-materials]: 
+[w2-video]: 
+[w3-materials]: 
+[w3-video]: 
+[w4-materials]: 
+[w4-video]: 
+[w5-materials]: 
+[w5-video]: 
+[w6-materials]: 
+[w6-video]: 
+[w7-materials]: 
+[w7-video]: 
+[w7-materials]: 
+[w8-materials]: 
+[w8-video]: 
+[w9-materials]: 
+[w9-video]: 
+-->
+
+
+<!--
+# Live Classes
+
 After each live class, the slides, notes, and video will be shared here.
 
 
@@ -14,3 +60,4 @@ After each live class, the slides, notes, and video will be shared here.
 | 7    | [Auth](./auth.md)      | [Slides](https://docs.google.com/presentation/d/1lrMIRcFcZuE5GiZNx7HaS0QjE4vTE45mT9YurTxG1cY/edit?usp=sharing)        | [YouTube](https://youtu.be/376g3lnadG4)            |             [YouTube](https://youtu.be/47_LlqVH8qg)          |  
 | 8    | [Deployment](./deployment.md)      | [Slides](https://docs.google.com/presentation/d/10FxvAF0OPg1K6U553csSDvSUnympAugaDFLg5-t7dfk/edit?usp=sharing)        | [YouTube](https://youtu.be/MEh1PZKfOt0?list=PLEApm5XV23vUr5XG_vv6wOCWNQiPbAOLb)            |             [YouTube](https://youtu.be/VYfaW_LeikY?list=PLEApm5XV23vUr5XG_vv6wOCWNQiPbAOLb)          |  
 | 9    | [Real Web Apps](./real-web-apps.md)      | [Slides](https://docs.google.com/presentation/d/1BR0BC0yCIYbbSGcG4rtk9IiMxEN-XZrWkok5r4RbXYY/edit?usp=sharing)        | [YouTube](https://youtu.be/lcftA9eGJu4)            |             [YouTube](https://youtu.be/P3fmEhd_ATU?list=PLEApm5XV23vUr5XG_vv6wOCWNQiPbAOLb)          |  
+-- >
