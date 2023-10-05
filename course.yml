@@ -6,7 +6,7 @@ units:
   - name: Course Overview
     activities:
       - name: Introduction
-        path: src/course-overiew.md
+        path: src/course-overview.md
         type: lesson
         kind: GENERAL
         workload: 30
