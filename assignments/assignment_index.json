@@ -1,0 +1,183 @@
+{
+  "name": "Web Application Development",
+  "id": "575913",
+  "code": "CSF005",
+  "assignments": [
+    {
+      "id": "3087810",
+      "name": "Week 1 Assignment - Web App Tour",
+      "course_id": "575913",
+      "course_code": "CSF005",
+      "href": "https://gradescope.com/courses/575913/assignments/3087810",
+      "filename": "week_1_assignment_-_web_app_tour.pdf"
+    },
+    {
+      "id": "3424965",
+      "name": "Week 1 Practice - Web Applications",
+      "course_id": "575913",
+      "course_code": "CSF005",
+      "href": "https://gradescope.com/courses/575913/assignments/3424965",
+      "filename": "week_1_practice_-_web_applications.pdf"
+    },
+    {
+      "id": "3087814",
+      "name": "Week 10 Practice - Case Study",
+      "course_id": "575913",
+      "course_code": "CSF005",
+      "href": "https://gradescope.com/courses/575913/assignments/3087814",
+      "filename": "week_10_practice_-_case_study.pdf"
+    },
+    {
+      "id": "3423197",
+      "name": "Week 2 Practice - Templating",
+      "course_id": "575913",
+      "course_code": "CSF005",
+      "href": "https://gradescope.com/courses/575913/assignments/3423197",
+      "filename": "week_2_practice_-_templating.pdf"
+    },
+    {
+      "id": "3424206",
+      "name": "Week 3 Practice - Databases",
+      "course_id": "575913",
+      "course_code": "CSF005",
+      "href": "https://gradescope.com/courses/575913/assignments/3424206",
+      "filename": "week_3_practice_-_databases.pdf"
+    },
+    {
+      "id": "3423292",
+      "name": "Week 5 Practice - Data Modeling",
+      "course_id": "575913",
+      "course_code": "CSF005",
+      "href": "https://gradescope.com/courses/575913/assignments/3423292",
+      "filename": "week_5_practice_-_data_modeling.pdf"
+    },
+    {
+      "id": "3424367",
+      "name": "Week 8 Practice - APIs",
+      "course_id": "575913",
+      "course_code": "CSF005",
+      "href": "https://gradescope.com/courses/575913/assignments/3424367",
+      "filename": "week_8_practice_-_apis.pdf"
+    },
+    {
+      "id": "3424561",
+      "name": "Week 9 Practice - Auth",
+      "course_id": "575913",
+      "course_code": "CSF005",
+      "href": "https://gradescope.com/courses/575913/assignments/3424561",
+      "filename": "week_9_practice_-_auth.pdf"
+    },
+    {
+      "id": "2536659",
+      "name": "1: Web App Tour",
+      "course_id": "480017",
+      "course_code": "CSF005",
+      "href": "https://gradescope.com/courses/480017/assignments/2536659",
+      "filename": "1__web_app_tour.pdf"
+    },
+    {
+      "id": "2739963",
+      "name": "Case Study: Real Web Apps",
+      "course_id": "480017",
+      "course_code": "CSF005",
+      "href": "https://gradescope.com/courses/480017/assignments/2739963",
+      "filename": "case_study__real_web_apps.pdf"
+    },
+    {
+      "id": "2598491",
+      "name": "Exercises",
+      "course_id": "480017",
+      "course_code": "CSF005",
+      "href": "https://gradescope.com/courses/480017/assignments/2598491",
+      "filename": "exercises.pdf"
+    },
+    {
+      "id": "3087810",
+      "name": "Week 1 Assignment - Web App Tour",
+      "course_id": "575913",
+      "course_code": "CSF005",
+      "href": "https://gradescope.com/courses/575913/assignments/3087810",
+      "filename": "week_1_assignment_-_web_app_tour.pdf"
+    },
+    {
+      "id": "3424965",
+      "name": "Week 1 Practice - Web Applications",
+      "course_id": "575913",
+      "course_code": "CSF005",
+      "href": "https://gradescope.com/courses/575913/assignments/3424965",
+      "filename": "week_1_practice_-_web_applications.pdf"
+    },
+    {
+      "id": "3087814",
+      "name": "Week 10 Practice - Case Study",
+      "course_id": "575913",
+      "course_code": "CSF005",
+      "href": "https://gradescope.com/courses/575913/assignments/3087814",
+      "filename": "week_10_practice_-_case_study.pdf"
+    },
+    {
+      "id": "3423197",
+      "name": "Week 2 Practice - Templating",
+      "course_id": "575913",
+      "course_code": "CSF005",
+      "href": "https://gradescope.com/courses/575913/assignments/3423197",
+      "filename": "week_2_practice_-_templating.pdf"
+    },
+    {
+      "id": "3424206",
+      "name": "Week 3 Practice - Databases",
+      "course_id": "575913",
+      "course_code": "CSF005",
+      "href": "https://gradescope.com/courses/575913/assignments/3424206",
+      "filename": "week_3_practice_-_databases.pdf"
+    },
+    {
+      "id": "3423292",
+      "name": "Week 5 Practice - Data Modeling",
+      "course_id": "575913",
+      "course_code": "CSF005",
+      "href": "https://gradescope.com/courses/575913/assignments/3423292",
+      "filename": "week_5_practice_-_data_modeling.pdf"
+    },
+    {
+      "id": "3424367",
+      "name": "Week 8 Practice - APIs",
+      "course_id": "575913",
+      "course_code": "CSF005",
+      "href": "https://gradescope.com/courses/575913/assignments/3424367",
+      "filename": "week_8_practice_-_apis.pdf"
+    },
+    {
+      "id": "3424561",
+      "name": "Week 9 Practice - Auth",
+      "course_id": "575913",
+      "course_code": "CSF005",
+      "href": "https://gradescope.com/courses/575913/assignments/3424561",
+      "filename": "week_9_practice_-_auth.pdf"
+    },
+    {
+      "id": "2536659",
+      "name": "1: Web App Tour",
+      "course_id": "480017",
+      "course_code": "CSF005",
+      "href": "https://gradescope.com/courses/480017/assignments/2536659",
+      "filename": "1__web_app_tour.pdf"
+    },
+    {
+      "id": "2739963",
+      "name": "Case Study: Real Web Apps",
+      "course_id": "480017",
+      "course_code": "CSF005",
+      "href": "https://gradescope.com/courses/480017/assignments/2739963",
+      "filename": "case_study__real_web_apps.pdf"
+    },
+    {
+      "id": "2598491",
+      "name": "Exercises",
+      "course_id": "480017",
+      "course_code": "CSF005",
+      "href": "https://gradescope.com/courses/480017/assignments/2598491",
+      "filename": "exercises.pdf"
+    }
+  ]
+}
